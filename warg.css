@@ -99,7 +99,7 @@ td.right.text-right { text-align: center!important; vertical-align: middle!impor
 
 .form-row .card-header b { text-transform: uppercase; letter-spacing: 1px; font-size: 80%; padding: 20px; font-weight: 100;}
 .form-row .card-img-top { display: none }
-.card-header { padding: 30px; margin-bottom: 10px;}
+.card-header { padding: 30px;}
 
 .card.text-center { border: 0!important; background: none!important }
 
