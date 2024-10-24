@@ -13,8 +13,7 @@ color: #999;
 background-image: url('https://images2.imgbox.com/7a/41/mvmBEhMr_o.jpg'); background-color: #000; background-attachment: fixed; background-size: cover; background-position: 50% 50% }
 
 a, .table th a, .alert-info .alert-link, .alert-success .alert-link { color: #fff; transition: .5s }
-a:hover, #footer nav .nav-item .nav-link:hover, #header .navbar-main .active .nav-link, #header .navbar-main .active .nav-link .fa, #header .navbar-main .nav-link:hover, #header .navbar-main .nav-link:hover .fa { text-decoration: line-through; color: #fff }
-
+a:hover, #footer nav .nav-item .nav-link:hover, .uimid { display: none } #header .navbar-main .active .nav-link, #header .navbar-main .active .nav-link .fa, #header .navbar-main .nav-link:hover, #header .navbar-main .nav-link:hover .fa { text-decoration: line-through; color: #fff } 
 @media (min-width: 1200px) {
 #header .navbar-main .nav-link { font-size: 9px; letter-spacing: 1px; margin-right: 15px }
 #header .navbar-main { min-height: 115px; background: none } }
@@ -192,7 +191,6 @@ td.b { width: 35% }
 
 form .table.table-striped tbody tr td div>div a:before { content: "ᛉ"; color: #999; margin: 0 5px; width: 10px; display: inline-block; font-size: 100%;  }
 
-div.uimid { display: none }
 
 
 #main>h1 { display: none }
