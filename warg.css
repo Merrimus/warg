@@ -192,7 +192,7 @@ td.b { width: 35% }
 
 form .table.table-striped tbody tr td div>div a:before { content: "ᛉ"; color: #999; margin: 0 5px; width: 10px; display: inline-block; font-size: 100%;  }
 
-
+div.uimid { display: none }
 
 
 #main>h1 { display: none }
@@ -202,4 +202,3 @@ form .table.table-striped tbody tr td div>div a:before { content: "ᛉ"; color: 
 .bones { display: flex; align-items: center; margin: -2em -1em }
 .bones>div { margin: 1em }
 .mb-3, .my-3 { margin: 0!important }
-.uimid { display:none!important }
