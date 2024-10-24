@@ -5,6 +5,7 @@
 
 #footer { background: none }
 #uimid { display: none!important }
+#text { display: none!important }
 #sidebar, .nav-tabs, .navbar-status, .breadcrumb-nav { display: none }
 
 body { cursor: default;
