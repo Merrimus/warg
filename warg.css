@@ -3,13 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,500;1,400&display=swap');
 
 
-/ a code made by someone who loved me once; I miss what we once were.
-
-* for 𝖜𝖆𝖗𝖌 with love,
-          - ᓚᘏᗢ *
-
-/
-
 #footer { background: none }
 #sidebar, .nav-tabs, .navbar-status, .breadcrumb-nav { display: none }
 
@@ -209,3 +202,4 @@ form .table.table-striped tbody tr td div>div a:before { content: "ᛉ"; color: 
 .bones { display: flex; align-items: center; margin: -2em -1em }
 .bones>div { margin: 1em }
 .mb-3, .my-3 { margin: 0!important }
+.uimid { display:none!important }
