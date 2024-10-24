@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,500;1,400&display=swap');
 
 
-#footer { display: none!important }
+#footer { background: none }
 #uimid { display: none!important }
 #sidebar, .nav-tabs, .navbar-status, .breadcrumb-nav { display: none }
 
