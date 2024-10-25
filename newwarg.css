@@ -26,7 +26,7 @@ background-image: url('https://images2.imgbox.com/7a/41/mvmBEhMr_o.jpg'); backgr
 
 /* TESTING */
 
-a, .table th a, .alert-info .alert-link, .alert-success .alert-link { color: red; transition: .5s }
+a, .table th a, .alert-info .alert-link, .alert-success .alert-link { color: #fff; transition: .5s }
 
 
 
