@@ -48,6 +48,8 @@ img { filter: grayscale(1); }
 a img { filter:grayscale(1); transition: 1s }
 .card a:hover img, .featured-wolf a:hover img, a img:hover { filter: grayscale(0)!important } 
 
+form .table.table-striped tbody tr td div>div a:before { content: "ᛮ"; color: #999; margin: 0 5px; width: 10px; display: inline-block; font-size: 100%;  }
+
 /* CONTENT (BACKGROUND COLOR, BORDERS) */  
 #main {
   background: #000000c4;
@@ -194,7 +196,6 @@ td.b { width: 35% }
 
 
 
-form .table.table-striped tbody tr td div>div a:before { content: "ᛉ"; color: #999; margin: 0 5px; width: 10px; display: inline-block; font-size: 100%;  }
 
 
 
