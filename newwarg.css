@@ -16,6 +16,7 @@
 .table-striped td.text-right img, .mr-2, .mx-2 { width: 10px }
 br, #footer { display: none }
 .user-tag, .float-left.mr-2 { border: 0px solid #eee3 }
+td.left { background: #fff!important; font-size: 80%; font-weight: 100; text-align: right; letter-spacing: 1px; text-transform: uppercase }
            
 /* BODY (CURSOR, FONT, BACKGROUND) */
 body { cursor: text;
@@ -74,7 +75,6 @@ form .table.table-striped tbody tr td div>div a:before { content: "ᛉ"; color: 
 
 
 /* Untested */  
-td.left { background: #FF0000!important; font-size: 80%; font-weight: 100; text-align: right; letter-spacing: 1px; text-transform: uppercase }
 
 
 
