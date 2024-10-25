@@ -94,6 +94,16 @@ th.top { padding: 20px 25px; background: #ffffff0f;
         line-height: 1; 
         color: #ffffff24; text-shadow: 0 0 10px #000000c7; }
 
+/* ICONS */  
+.fas { color: #999; font-size: 10px; }
+
+/* FONTS */  
+th, .table a, #footer nav .nav-item .nav-link { font-weight: 100 }
+h1, h2, h3, h4, h5, h6, th.pt-1.pb-1 { font-family: 'East Sea Dokdo', cursive; }
+.small, small { font-size: 9px; text-transform: uppercase; letter-spacing: 1px }
+td.b { text-align: right; font-weight: 100; text-transform: uppercase; font-weight: bold; font-size: 9px; letter-spacing: 1px }
+.form-control, .btn { font-size: inherit!important }
+
 /* ALERTS */  
 #summernote-form, .alert { background: none; border: 0; border-bottom: 0px solid #eee3; color: inherit; padding: 0 5px 5px;}
 .text-danger { color: inherit!important }
@@ -105,9 +115,8 @@ th.top { padding: 20px 25px; background: #ffffff0f;
 select { background: #000 }
 table.table.table-striped td { vertical-align: middle; }
 form#summernote-form { background: #000; padding: 20px; border: 1px solid #222 }
+.note-popover .popover-content, .note-toolbar { padding: 0 0 5px }
 
-/* ICONS */  
-.fas { color: #999; font-size: 10px; }
 
 
 
@@ -117,16 +126,7 @@ form#summernote-form { background: #000; padding: 20px; border: 1px solid #222 }
 
 
 
-.note-popover .popover-content, .note-toolbar { padding: 0 0 5px }
 
-th, .table a, #footer nav .nav-item .nav-link { font-weight: 100 }
-h1, h2, h3, h4, h5, h6, th.pt-1.pb-1 { font-family: 'East Sea Dokdo', cursive; }
-.small, small { font-size: 9px; text-transform: uppercase; letter-spacing: 1px }
-
-
-td.b { text-align: right; font-weight: 100; text-transform: uppercase; font-weight: bold; font-size: 9px; letter-spacing: 1px }
-
-.form-control, .btn { font-size: inherit!important }
 .table .bottom, .table tfoot td { color: inherit; background: #111!important }
 td { background: #000 }
 .note-editor { filter: invert(1) }
@@ -158,10 +158,5 @@ td.b { width: 35% }
 
 
 
-@media (min-width: 768px) {
-.form-row .col-md-2 {
-    -ms-flex: 0 0 20%;
-    flex: 0 0 20%;
-    max-width: 20%;
-} }
+@media (min-width: 768px) { .form-row .col-md-2 { -ms-flex: 0 0 20%; flex: 0 0 20%; max-width: 20%;} }
 
