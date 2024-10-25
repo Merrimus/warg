@@ -15,13 +15,13 @@ color: #999;
 background-image: url('https://images2.imgbox.com/7a/41/mvmBEhMr_o.jpg'); background-color: #000; background-attachment: fixed; background-size: cover; background-position: 50% 50% }
 
 
-/* WATCH THIS */
+/* NOT SURE THIS MATTERS ANYMORE
 
 th.pt-1.pb-1::after, .table.mt-3 th.top::after {
 	color: red;
 	position: absolute;
 	right: 3%;
-}
+} */
 
 /* DEN BOXES */
 
