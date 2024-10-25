@@ -5,15 +5,9 @@
 @import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,500;1,400&display=swap');
 
-/* PACK NAME FORMATTING */
+/* PACK TITLE */
 #main>h1 { color: #ffffff2e; text-align: center!important; margin: 0!important; font-size: 100px!important; line-height: 1; 
            -webkit-text-stroke: 1px rgba(248,248,248,0.15);}
-
-/* DEN TITLES */  
-th.top { padding: 20px 25px; background: #ffffff0f; 
-        font-size: 35px; font-family: 'East Sea Dokdo', cursive; 
-        line-height: 1; 
-        color: #ffffff24; text-shadow: 0 0 10px #000000c7; }
 
 /* BONESTREWN CONTENT */
 .skeletal { margin-bottom:-150px; margin-top:-150px; opacity: 0.5; }
@@ -93,6 +87,12 @@ h3.mb-0 { padding: 10px; text-align: right; font-style: italic; background: #eee
 .card.mb-3, .featured-wolf img { border: 0px solid #eee3; }
 
 tr { border-top: 1px solid #222 }
+
+/* DEN TITLES */  
+th.top { padding: 20px 25px; background: #ffffff0f; 
+        font-size: 35px; font-family: 'East Sea Dokdo', cursive; 
+        line-height: 1; 
+        color: #ffffff24; text-shadow: 0 0 10px #000000c7; }
 
 /* ALERTS */  
 #summernote-form, .alert { background: none; border: 0; border-bottom: 0px solid #eee3; color: inherit; padding: 0 5px 5px;}
