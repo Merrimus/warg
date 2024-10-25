@@ -35,7 +35,6 @@ th.pt-1.pb-1::before { content: "Lich "; font-size: 40px!important }
 .featured-wolf { font-size: 0!important }
 .featured-wolf b::before { content: "dead doesn't mean gone"; font-size: .875rem!important; font-style: italic }
 
-/*.featured-wolf b::before { content: "dead doesn't mean gone"; font-size: .875rem!important; font-style: italic }*/
 
 
 
