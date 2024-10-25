@@ -91,7 +91,7 @@ tr { border-top: 1px solid #222 }
 .table .bottom, .table tfoot td { color: inherit; background: #111!important }
 
 /* DEN TITLES */  
-th.top { padding: 20px 25px; background: #ffffff0f; 
+th.top { padding: 20px 25px; background-image: url(https://images2.imgbox.com/7a/41/mvmBEhMr_o.jpg)!important;
         font-size: 35px; font-family: 'East Sea Dokdo', cursive; 
         line-height: 1; 
         background: #b32b2b; background-blend-mode: darken; 
