@@ -73,7 +73,7 @@ form .table.table-striped tbody tr td div>div a:before { content: "ᛉ"; color: 
 
 /* Untested */  
 
-.user-tag, .float-left.mr-2 { border: 1px solid red }
+.user-tag, .float-left.mr-2 { border: 0px solid #eee3 }
 
 
 
