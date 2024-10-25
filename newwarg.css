@@ -109,12 +109,13 @@ th.top {
     font-family: 'East Sea Dokdo', cursive;
     line-height: 1;
     color: #ffffff24;
-    text-shadow: 0 0 10px #000000c7;
-    text-transform: lowercase; }
+    text-shadow: 0 0 10px #000000c7; }
 
 
 
-/* Untested */ 
+/* Untested 
+
+text-transform: lowercase;*/ 
 
 
 
