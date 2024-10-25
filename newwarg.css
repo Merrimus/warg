@@ -28,15 +28,14 @@ background-image: url('https://images2.imgbox.com/7a/41/mvmBEhMr_o.jpg'); backgr
 a, .table th a, .alert-info .alert-link, .alert-success .alert-link { color: #fff; transition: .5s }
 a:hover, #footer nav .nav-item .nav-link:hover, #header .navbar-main .active .nav-link, #header .navbar-main .active .nav-link .fa, #header .navbar-main .nav-link:hover, #header .navbar-main .nav-link:hover .fa { text-decoration: line-through; color: #fff } 
 
-/* UNSORTED */
-
+/* DON'T TOUCH */
 @media (min-width: 1200px) { 
     
-/* FEATURED WOLVES */   
+/* TITLE, FEATURED WOLVES */   
 .pt-1.pb-1, .featured-wolf b { line-height: 1; font-size: 0!important } .pt-1.pb-1 a { font-size: 40px!important }
 th.pt-1.pb-1::before { content: "Lich "; font-size: 40px!important }
 .featured-wolf { font-size: 0!important }
-.featured-wolf b::before { content: "dead doesn't mean gone"; color: red; font-size: .875rem!important; font-style: italic }
+.featured-wolf b::before { content: "dead doesn't mean gone"!important; font-size: .875rem!important; font-style: italic }
     
 /* UNSORTED */
     
