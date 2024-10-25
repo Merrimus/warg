@@ -45,7 +45,7 @@ a img { filter:grayscale(1); transition: 1s }
 .card a:hover img, .featured-wolf a:hover img, a img:hover { filter: grayscale(0)!important }
     
 /* FOOTER */        
-#footer { font-size: 200%; padding-top: 20px; }
+#footer { font-size: 80%; padding-top: 20px; }
 
 
 
