@@ -100,41 +100,21 @@ select { background: #000 }
 table.table.table-striped td { vertical-align: middle; }
 form#summernote-form { background: #000; padding: 20px; border: 1px solid #222 }
 
-/* TESTING */  
+/* DEN TITLES */  
 
 th.top {
     padding: 20px 25px;
     background: #ffffff0f;
-    font-size: 100px;
+    font-size: 30px;
     font-family: 'East Sea Dokdo', cursive;
     line-height: 1;
     color: #ffffff24;
     text-shadow: 0 0 10px #000000c7;
-    text-transform: lowercase;
-}
+    text-transform: lowercase; }
 
 
 
-/* Untested 
-
-
-th.top {
-    padding: 20px 25px;
-    background: #ffffff0f;
-    font-size: 35px;
-    font-family: 'East Sea Dokdo', cursive;
-    line-height: 1;
-    color: #ffffff24;
-    text-shadow: 0 0 10px #000000c7;
-    text-transform: lowercase;
-}*/  
-
-
-
-
-
-
-
+/* Untested */ 
 
 
 
