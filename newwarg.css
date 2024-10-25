@@ -51,8 +51,8 @@ a img { filter:grayscale(1); transition: 1s }
 .card.mb-3, .featured-wolf img {
     border: 0px solid #eee3; }
 
-/* DEN BACKGROUND */  
-.table th, #main .card, .card.text-center { background: red }
+/* LEAD WOLF TITLE BACKGROUND */  
+.table th, #main .card, .card.text-center { background: #b32b2b; background-blend-mode: darken; }
 
 /* WOLF CARD BACKGROUND */  
 .table-striped tbody tr:nth-of-type(odd), .form-control { background-color: transparent }
