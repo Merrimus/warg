@@ -138,22 +138,22 @@ form#summernote-form { background: #000; padding: 20px; border: 1px solid #222 }
 
 
 /* TEST */
+.bg-light, .btn-light { background: red!important; color: inherit; }
 
 
-
-/* Untested */ 
-
-
-
-
-
-
-
-
-.bg-light, .btn-light {
+/* Untested .bg-light, .btn-light {
     background: #0f0f0f!important;
     color: inherit;
-}
+}*/ 
+
+
+
+
+
+
+
+
+
 .card.bg-transparent.mb-0 { height: auto!important }
 .bg-dark, .bg-light {
     background-color: transparent!important;
