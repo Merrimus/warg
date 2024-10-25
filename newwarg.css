@@ -5,7 +5,7 @@
 
 #footer { background: none }
 #uimid { display: none!important }
-/* #sidebar, .nav-tabs, .navbar-status, .breadcrumb-nav { display: none } */
+#sidebar, .nav-tabs, .navbar-status, .breadcrumb-nav { display: none }
 
 body { cursor: default;
 color: #999;
