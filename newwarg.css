@@ -70,7 +70,7 @@ form .table.table-striped tbody tr td div>div a:before { content: "ᛉ"; color: 
 .card.mb-3, .featured-wolf img { border: 0px solid #eee3; }
 
 tr { border-top: 1px solid #222 }
-td.right.text-right { text-align: center!important; vertical-align: middle!important; border-left: 1px solid red }
+/* td.right.text-right { text-align: center!important; vertical-align: middle!important; border-left: 1px solid #222 } */
 
 /* ALERTS */  
 #summernote-form, .alert {
