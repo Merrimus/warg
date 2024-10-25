@@ -11,7 +11,8 @@ If you steal this - be sure to love yourself enough to make it your own. - ğ–œğ
 #uimid { display: none!important }
 #sidebar, .nav-tabs, .navbar-status, .breadcrumb-nav { display: none }
 
-body { cursor: default;
+
+body { cursor: grab;
 color: #999;
     font-family: georgia;
     font-size: 11px;
