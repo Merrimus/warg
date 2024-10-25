@@ -90,10 +90,10 @@ h3.mb-0 { padding: 10px; text-align: right; font-style: italic; background: #eee
 /* CONTENT (BACKGROUND COLOR, BORDERS, DEN UPDATE BAR, DEN PAGE EDITOR) */  
 #main { background: #000000c4;
        padding: 60px;
-       border: 0px solid white }
+       border: 0px solid #eee3 }
 
-.card.mb-3, .featured-wolf img { border: 0px solid white; }
-tr { border-top: 1px solid white }
+.card.mb-3, .featured-wolf img { border: 0px solid #eee3; }
+tr { border-top: 1px solid #222 }
 
 .table .bottom, .table tfoot td { color: inherit; background: #111!important }
 .note-editor { filter: invert(1) }
