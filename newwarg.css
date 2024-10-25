@@ -11,6 +11,11 @@ If you steal this - be sure to love yourself enough to make it your own. - ð–œð
 #uimid { display: none!important }
 #sidebar, .nav-tabs, .navbar-status, .breadcrumb-nav { display: none }
 
+/* PARAMETERS */
+@media (min-width: 1200px) { 
+#main { flex: 1; max-width: 100%; background: none; margin-bottom: -1px }
+.container>.row { display: block!important }
+
 /* BODY (CURSOR, FONT, BACKGROUND) */
 body { cursor: text;
 color: #999;
@@ -27,9 +32,6 @@ background-image: url('https://images2.imgbox.com/7a/41/mvmBEhMr_o.jpg'); backgr
 /* LINKS */
 a, .table th a, .alert-info .alert-link, .alert-success .alert-link { color: #fff; transition: .5s }
 a:hover, #footer nav .nav-item .nav-link:hover, #header .navbar-main .active .nav-link, #header .navbar-main .active .nav-link .fa, #header .navbar-main .nav-link:hover, #header .navbar-main .nav-link:hover .fa { text-decoration: line-through; color: #fff } 
-
-/* DON'T TOUCH */
-@media (min-width: 1200px) { 
     
 /* LEAD TITLE, FEATURED WOLF DISPLAY */   
 .pt-1.pb-1, .featured-wolf b { line-height: 1; font-size: 0!important } .pt-1.pb-1 a { font-size: 50px!important }
@@ -37,16 +39,15 @@ th.pt-1.pb-1::before { content: "The Lich "; font-size: 40px!important }
 .featured-wolf { font-size: 0!important }
 .featured-wolf::before { content: "dead doesn't mean gone"; font-size: .875rem!important; font-style: italic }
         
-/* UNSORTED */    
-#main { flex: 1; max-width: 100%; background: red; margin-bottom: -1px }
-.container>.row { display: block!important }
-
-    
-    
+/* WOLF IMAGE HOVER GREYSCALE */        
 img { filter: grayscale(1); }
 a img { filter:grayscale(1); transition: 1s }
 .card a:hover img, .featured-wolf a:hover img, a img:hover { filter: grayscale(0)!important }
 
+
+
+    
+/* x */        
 #footer {     font-size: 80%;
     padding-top: 20px; }
 
