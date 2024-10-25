@@ -47,7 +47,7 @@ a img { filter:grayscale(1); transition: 1s }
 #main {
   background: #000000c4;
   padding: 60px;
-  border: 1px solid #eee3 }
+  border: 0px solid #eee3 }
 
 
 
