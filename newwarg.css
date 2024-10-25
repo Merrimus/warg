@@ -6,10 +6,11 @@ If you steal this - be sure to love yourself enough to make it your own. - ð–œð
 @import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,500;1,400&display=swap');
 
-/* HIDING THINGS */
+/* SETTING THINGS */
 #footer { background: none }
 #uimid { display: none!important }
 #sidebar, .nav-tabs, .navbar-status, .breadcrumb-nav { display: none }
+@media (min-width: 1200px)
 
 /* BODY (CURSOR, FONT, BACKGROUND) */
 body { cursor: text;
@@ -27,19 +28,15 @@ background-image: url('https://images2.imgbox.com/7a/41/mvmBEhMr_o.jpg'); backgr
 /* LINKS */
 a, .table th a, .alert-info .alert-link, .alert-success .alert-link { color: #fff; transition: .5s }
 a:hover, #footer nav .nav-item .nav-link:hover, #header .navbar-main .active .nav-link, #header .navbar-main .active .nav-link .fa, #header .navbar-main .nav-link:hover, #header .navbar-main .nav-link:hover .fa { text-decoration: line-through; color: #fff } 
-
-/* UNSORTED */
-
-@media (min-width: 800px)
     
-/* UNSORTED */
-
-/* @media (min-width: 1200px) { */
+/* TESTING */
 
 .pt-1.pb-1, .featured-wolf b { line-height: 1; font-size: 0!important } .pt-1.pb-1 a { font-size: 40px!important }
 th.pt-1.pb-1::before { content: "Lich "; font-size: 40px!important }
 .featured-wolf { font-size: 0!important }
 .featured-wolf b::before { content: "dead doesn't mean gone"; font-size: .875rem!important; font-style: italic }
+
+/* UNSORTED */
 
 #main { flex: 1; max-width: 100%; background: none; margin-bottom: -1px }
 .container>.row { display: block!important }
