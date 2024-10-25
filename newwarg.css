@@ -43,13 +43,14 @@ th.pt-1.pb-1::before { content: "The Lich "; font-size: 40px!important }
 img { filter: grayscale(1); }
 a img { filter:grayscale(1); transition: 1s }
 .card a:hover img, .featured-wolf a:hover img, a img:hover { filter: grayscale(0)!important }
-
-
-
     
-/* x */        
-#footer {     font-size: 80%;
-    padding-top: 20px; }
+/* FOOTER */        
+#footer { font-size: 200%; padding-top: 20px; }
+
+
+
+
+/* x */  
 
 #main {
   background: #000000c4;
