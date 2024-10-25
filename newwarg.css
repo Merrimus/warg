@@ -78,7 +78,8 @@ form .table.table-striped tbody tr td div>div a:before { content: "ᛉ"; color: 
     border-bottom: 0px solid #eee3;
     color: inherit;
     padding: 0 5px 5px;
-    float: right;}
+    float: right;
+    display: inline;}
 
 
 
