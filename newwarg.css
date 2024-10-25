@@ -18,7 +18,7 @@
 .mb-3, .my-3 { margin: 0!important }
 
 .skeletal { margin-bottom:-150px; margin-top:-150px; opacity: 0.5; }
-.scattered { margin-top:-150px; opacity: 0.5; float: right;}
+.scattered { margin-bottom:-200px; opacity: 0.5; float: right;}
 
 /* DON'T TOUCH THESE */
 #footer { background: none; font-size: 80%; padding-top: 20px; }
