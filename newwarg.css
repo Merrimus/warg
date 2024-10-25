@@ -6,7 +6,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,500;1,400&display=swap');
 
 /* PACK NAME FORMATTING */
-#main>h1 { color: #ffffff2e; text-align: center!important; margin: 0!important; font-size: 100px!important; line-height: 1;}
+#main>h1 { color: #ffffff2e; text-align: center!important; margin: 0!important; font-size: 100px!important; line-height: 1; 
+          -webkit-text-stroke: 1px #F8F8F8; text-shadow: 0px 2px 4px red;}
 
 /* DEN PAGE CONTENT */
 .cross { width: 50px; height: 50px; position: relative; filter: brightness(.4) }
