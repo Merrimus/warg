@@ -6,10 +6,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,500;1,400&display=swap');
 
 /* PACK NAME FORMATTING */
-h1 { color: #ffffff2e; text-align: center!important; margin: 0!important; font-size: 100px!important; line-height: 1;}
+#main>h1 { color: #ffffff2e; text-align: center!important; margin: 0!important; font-size: 100px!important; line-height: 1;}
 
 /* DEN PAGE CONTENT */
-#main>h1 { display: none }
 .cross { width: 50px; height: 50px; position: relative; filter: brightness(.4) }
 .cross img { position: absolute; width: 100%; top: 0; left: 0 }
 .marrow { transform: scaleX(-1); }
