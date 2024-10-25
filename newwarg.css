@@ -7,7 +7,7 @@
 
 /* PACK NAME FORMATTING */
 #main>h1 { color: #ffffff2e; text-align: center!important; margin: 0!important; font-size: 100px!important; line-height: 1; 
-           -webkit-text-stroke: 1px rgba(248,248,248,0.5);}
+           -webkit-text-stroke: 1px rgba(248,248,248,0.3);}
 
 /* DEN PAGE CONTENT */
 .cross { width: 50px; height: 50px; position: relative; filter: brightness(.4) }
