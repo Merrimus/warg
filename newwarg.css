@@ -31,14 +31,12 @@ a:hover, #footer nav .nav-item .nav-link:hover, #header .navbar-main .active .na
 /* DON'T TOUCH */
 @media (min-width: 1200px) { 
     
-/* TITLE, FEATURED WOLVES */   
+/* LEAD TITLE, FEATURED WOLF DISPLAY */   
 .pt-1.pb-1, .featured-wolf b { line-height: 1; font-size: 0!important } .pt-1.pb-1 a { font-size: 50px!important }
 th.pt-1.pb-1::before { content: "The Lich "; font-size: 40px!important }
 .featured-wolf { font-size: 0!important }
 .featured-wolf::before { content: "dead doesn't mean gone"; font-size: .875rem!important; font-style: italic }
-    
-/* UNSORTED .featured-wolf b::before { content: "dead doesn't mean gone"; font-size: .875rem!important; font-style: italic } */
-    
+        
 /* UNSORTED */
     
 #main { flex: 1; max-width: 100%; background: none; margin-bottom: -1px }
