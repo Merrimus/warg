@@ -30,7 +30,16 @@ background-image: url('https://images2.imgbox.com/7a/41/mvmBEhMr_o.jpg'); backgr
 /* LINKS */
 a, .table th a, .alert-info .alert-link, .alert-success .alert-link { color: #fff; transition: .5s }
 a:hover, #footer nav .nav-item .nav-link:hover, #header .navbar-main .active .nav-link, #header .navbar-main .active .nav-link .fa, #header .navbar-main .nav-link:hover, #header .navbar-main .nav-link:hover .fa { text-decoration: line-through; color: #fff } 
-    
+
+/* PACK NAME FORMATTING */
+h1 {
+    color: #ffffff2e;
+    text-align: center;
+    font-size: 100px;
+    margin: 0!important;
+    line-height: 1;
+}
+
 /* LEAD TITLE, FEATURED WOLF DISPLAY */   
 .pt-1.pb-1, .featured-wolf b { line-height: 1; font-size: 0!important } .pt-1.pb-1 a { font-size: 50px!important; text-decoration:none!important; }
 th.pt-1.pb-1::before { content: "The Lich "; font-size: 40px!important }
@@ -160,14 +169,6 @@ select option { background: #000!important; color: inherit!important }
 h3.mb-0 i { vertical-align: middle; display: inline; font-size: 50%; margin-right: 10px; filter: opacity(.2) }
 img.float-left.mr-2 { background: none; border-radius: 0; padding: 0; }
 .navbar-nav { padding-top: 0 }
-h1 {
-    color: #ffffff2e;
-    text-align: center;
-    font-size: 80px;
-    margin: 0!important;
-    line-height: 1;
-}
-
 
 a img.border-bottom, img.rounded-bottom { border: 1px solid #333!important; box-sizing: border-box; display: block }
 td.b { width: 35% }
@@ -193,6 +194,8 @@ td.b { width: 35% }
     flex: 0 0 20%;
     max-width: 20%;
 } }
+
+
 
 
 
