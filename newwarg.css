@@ -9,7 +9,13 @@
 #main>h1 { color: #ffffff2e; text-align: center!important; margin: 0!important; font-size: 100px!important; line-height: 1; 
            -webkit-text-stroke: 1px rgba(248,248,248,0.15);}
 
-/* DEN PAGE CONTENT */
+/* DEN TITLES */  
+th.top { padding: 20px 25px; background: #ffffff0f; 
+        font-size: 35px; font-family: 'East Sea Dokdo', cursive; 
+        line-height: 1; 
+        color: #ffffff24; text-shadow: 0 0 10px #000000c7; }
+
+/* BONESTREWN CONTENT */
 .skeletal { margin-bottom:-150px; margin-top:-150px; opacity: 0.5; }
 .scattered { margin-bottom:-150px; opacity: 0.5; float: right;}
 
@@ -28,17 +34,17 @@ br, #footer { display: none }
 td.left { background: #FF0000!important; font-size: 80%; font-weight: 100; text-align: right; letter-spacing: 1px; text-transform: uppercase }
 td.row { margin: 0!important }
 td.right.text-right { text-align: center!important; vertical-align: middle!important; border-left: 1px solid #222 }
-           
-/* BODY (CURSOR, FONT, BACKGROUND) */
-body { cursor: text;
-color: #999; font-family: georgia; font-size: 11px;
-background-image: url('https://images2.imgbox.com/7a/41/mvmBEhMr_o.jpg'); background-color: #000; background-attachment: fixed; background-size: cover; background-position: 50% 50% }
 
 /* HEADER CHANGES */
 #header .navbar-main .nav-link { font-size: 9px; letter-spacing: 1px; margin-right: 15px }
 #header .navbar-main { min-height: 115px; background: none } }
 .nav-item i { vertical-align: middle; display: inline }
 #header .navbar-main .nav-link .fa { color: inherit }
+           
+/* BODY (CURSOR, FONT, BACKGROUND) */
+body { cursor: text;
+color: #999; font-family: georgia; font-size: 11px;
+background-image: url('https://images2.imgbox.com/7a/41/mvmBEhMr_o.jpg'); background-color: #000; background-attachment: fixed; background-size: cover; background-position: 50% 50% }
 
 /* LINKS */
 a, .table th a, .alert-info .alert-link, .alert-success .alert-link { color: #fff; transition: .5s }
@@ -100,21 +106,10 @@ select { background: #000 }
 table.table.table-striped td { vertical-align: middle; }
 form#summernote-form { background: #000; padding: 20px; border: 1px solid #222 }
 
-/* DEN TITLES */  
 
-th.top {
-    padding: 20px 25px;
-    background: #ffffff0f;
-    font-size: 35px;
-    font-family: 'East Sea Dokdo', cursive;
-    line-height: 1;
-    color: #ffffff24;
-    text-shadow: 0 0 10px #000000c7; }
 
-.fas {
-    color: white;
-    font-size: 10px;
-}
+/* ICONS */  
+.fas { color: #999; font-size: 10px; }
 
 /* Untested */ 
 
