@@ -1,4 +1,4 @@
-/* Once upon a time, someone loved me enough to make me a custom CSS. That changed, just like this code. */
+/* Once upon a time, someone loved me enough to make me a custom CSS. That changed, just like this code. 𓃦 */
 
 /* FONTS */
 @import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
@@ -54,18 +54,20 @@ a img { filter:grayscale(1); transition: 1s }
   padding: 60px;
   border: 0px solid #eee3 }
 
-.card.mb-3, .featured-wolf img {
-    border: 0px solid #eee3; }
+.card.mb-3, .featured-wolf img { border: 0px solid #eee3; }
 
+
+
+/* TESTING */  
+
+.table .subheader { background: red }
+/* .table-striped td.text-right img, .mr-2, .mx-2 { background: #eee3; padding: 5px; border-radius: 20px } */
+.table-striped td.text-right img, .mr-2, .mx-2 { width: 10px }
+br, #footer { display: none }
 
 
 
 /* Untested */  
-
-.table .subheader { background: #000 }
-/* .table-striped td.text-right img, .mr-2, .mx-2 { background: #eee3; padding: 5px; border-radius: 20px } */
-.table-striped td.text-right img, .mr-2, .mx-2 { width: 10px }
-br, #footer { display: none }
 
 #summernote-form, .alert {
     background: none;
