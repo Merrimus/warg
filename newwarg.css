@@ -16,6 +16,7 @@
 /* DON'T TOUCH THESE */
 #footer { background: none; font-size: 80%; padding-top: 20px; }
 #uimid { display: none!important }
+#header .navbar-main { background: none!important }
 #sidebar, .nav-tabs, .navbar-status, .breadcrumb-nav { display: none }
 @media (min-width: 1200px) { 
 #main { flex: 1; max-width: 100%; background: none; margin-bottom: -1px }
@@ -25,6 +26,7 @@
 br, #footer { display: none }
 .user-tag, .float-left.mr-2 { border: 0px solid #eee3 }
 td.left { background: #FF0000!important; font-size: 80%; font-weight: 100; text-align: right; letter-spacing: 1px; text-transform: uppercase }
+td.row { margin: 0!important }
            
 /* BODY (CURSOR, FONT, BACKGROUND) */
 body { cursor: text;
@@ -67,7 +69,7 @@ form .table.table-striped tbody tr td div>div a:before { content: "ᛉ"; color: 
   border: 0px solid #eee3 }
 .card.mb-3, .featured-wolf img { border: 0px solid #eee3; }
 
-/* ALERTS (when broken, try: max-height:10px; overflow:hidden;)*/  
+/* ALERTS */  
 #summernote-form, .alert {
     background: none;
     border: 0;
@@ -82,16 +84,11 @@ form .table.table-striped tbody tr td div>div a:before { content: "ᛉ"; color: 
 /* Untested */  
 
 
+tr { border-top: 50px solid #222 }
 
 
 
-
-#header .navbar-main { background: none!important }
-
-td.row { margin: 0!important }
-
-
-tr { border-top: 1px solid #222 }
+/* tr { border-top: 1px solid #222 } */  
 
 td.right.text-right { text-align: center!important; vertical-align: middle!important; border-left: 1px solid #222 }
 
