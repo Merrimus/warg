@@ -8,6 +8,23 @@
 /* PACK NAME FORMATTING */
 #main>h1 { color: #ffffff2e; text-align: center!important; margin: 0!important; font-size: 100px!important; line-height: 1;}
 
+/* css */
+#logo {
+    background: transparent url("logo.png") no-repeat scroll 0% 0%;
+    width: 250px;
+    height: 70px;
+    text-indent: -3333px;
+    border: 0;
+    margin: 0;
+}
+
+#logo a {
+    display: block;
+    width: 280px; /* larger than actual image? */
+    height: 120px;
+    text-decoration: none;
+    border: 0;
+
 /* DEN PAGE CONTENT */
 .cross { width: 50px; height: 50px; position: relative; filter: brightness(.4) }
 .cross img { position: absolute; width: 100%; top: 0; left: 0 }
