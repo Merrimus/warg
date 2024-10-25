@@ -8,6 +8,7 @@
 /* DON'T TOUCH */
 #footer { background: none; font-size: 80%; padding-top: 20px; }
 #uimid { display: none!important }
+uimid.div { display: none }
 #header .navbar-main { background: none!important }
 #sidebar, .nav-tabs, .navbar-status, .breadcrumb-nav { display: none }
 @media (min-width: 1200px) { 
