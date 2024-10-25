@@ -1,8 +1,12 @@
+/* Once upon a time, someone loved me enough to make me a custom CSS. I loved myself enough to learn how to chane it. 
+If you steal this - be sure to love yourself enough to make it your own. - 𝖜𝖆𝖗𝖌 */
+
+/* FONTS */
 @import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,500;1,400&display=swap');
 
-
+/* HIDING THINGS */
 #footer { background: none }
 #uimid { display: none!important }
 #sidebar, .nav-tabs, .navbar-status, .breadcrumb-nav { display: none }
