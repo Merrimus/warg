@@ -93,7 +93,7 @@ h3.mb-0 { padding: 10px; text-align: right; font-style: italic; background: #eee
        border: 0px solid #eee3 }
 
 .card.mb-3, .featured-wolf img { border: 0px solid #eee3; }
-tr { border-top: 1px solid white }
+tr { border-top: 1px solid #8e8e8e }
 
 .table .bottom, .table tfoot td { color: inherit; background: #111!important }
 .note-editor { filter: invert(1) }
