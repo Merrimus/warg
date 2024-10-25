@@ -4,6 +4,27 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,500;1,400&display=swap');
+
+/* DEN PAGE CONTENT */
+#main>h1 { display: none }
+.cross { width: 50px; height: 50px; position: relative; filter: brightness(.4) }
+.cross img { position: absolute; width: 100%; top: 0; left: 0 }
+.marrow { transform: scaleX(-1); }
+.bones { display: flex; align-items: center; margin: -2em -1em }
+.bones>div { margin: 1em }
+.mb-3, .my-3 { margin: 0!important }
+
+/* DON'T TOUCH THESE */
+#footer { background: none; font-size: 80%; padding-top: 20px; }
+#uimid { display: none!important }
+#sidebar, .nav-tabs, .navbar-status, .breadcrumb-nav { display: none }
+@media (min-width: 1200px) { 
+#main { flex: 1; max-width: 100%; background: none; margin-bottom: -1px }
+.container>.row { display: block!important }
+.table .subheader { background: #000 }
+.table-striped td.text-right img, .mr-2, .mx-2 { width: 10px }
+br, #footer { display: none }
+.user-tag, .float-left.mr-2 { border: 0px solid #eee3 }
            
 /* BODY (CURSOR, FONT, BACKGROUND) */
 body { cursor: text;
@@ -21,7 +42,7 @@ a, .table th a, .alert-info .alert-link, .alert-success .alert-link { color: #ff
 a:hover, #footer nav .nav-item .nav-link:hover, #header .navbar-main .active .nav-link, #header .navbar-main .active .nav-link .fa, #header .navbar-main .nav-link:hover, #header .navbar-main .nav-link:hover .fa { text-decoration: line-through; color: #fff } 
 
 /* PACK NAME FORMATTING */
-h1 { color: #FFFFFF; text-align: center!important; font-size: 100px!important; margin: 0!important; line-height: 1;}
+h1 { color: #ffffff2e; text-align: center; font-size: 100px!important; margin: 0!important; line-height: 1;}
 
 /* LEAD TITLE, FEATURED WOLF DISPLAY */   
 .pt-1.pb-1, .featured-wolf b { line-height: 1; font-size: 0!important } .pt-1.pb-1 a { font-size: 50px!important; text-decoration:none!important; }
@@ -55,23 +76,11 @@ form .table.table-striped tbody tr td div>div a:before { content: "ᛉ"; color: 
     border: 0;
     border-bottom: 0px solid #eee3;
     color: inherit;
-    padding: 0 5px 5px;}
-
-/* DON'T TOUCH THESE */
-#footer { background: none; font-size: 80%; padding-top: 20px; }
-#uimid { display: none!important }
-#sidebar, .nav-tabs, .navbar-status, .breadcrumb-nav { display: none }
-@media (min-width: 1200px) { 
-#main { flex: 1; max-width: 100%; background: none; margin-bottom: -1px }
-.container>.row { display: block!important }
-.table .subheader { background: #000 }
-.table-striped td.text-right img, .mr-2, .mx-2 { width: 10px }
-br, #footer { display: none }
-.user-tag, .float-left.mr-2 { border: 0px solid #eee3 }
+    padding: 0 5px 5px;
+}
 
 
 
-           
 
 
 /* Untested */  
@@ -197,13 +206,4 @@ td.b { width: 35% }
 
 
 
-
-/* DEN PAGE CONTENT */
-#main>h1 { display: none }
-.cross { width: 50px; height: 50px; position: relative; filter: brightness(.9) }
-.cross img { position: absolute; width: 100%; top: 0; left: 0 }
-.marrow { transform: scaleX(-1); }
-.bones { display: flex; align-items: center; margin: -2em -1em }
-.bones>div { margin: 1em }
-.mb-3, .my-3 { margin: 0!important }
 
