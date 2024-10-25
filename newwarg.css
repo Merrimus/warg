@@ -18,9 +18,7 @@ If you steal this - be sure to love yourself enough to make it your own. - ùñú
 
 /* BODY (CURSOR, FONT, BACKGROUND) */
 body { cursor: text;
-color: #999;
-    font-family: georgia;
-    font-size: 11px;
+color: #999; font-family: georgia; font-size: 11px;
 background-image: url('https://images2.imgbox.com/7a/41/mvmBEhMr_o.jpg'); background-color: #000; background-attachment: fixed; background-size: cover; background-position: 50% 50% }
 
 /* HEADER CHANGES */
@@ -45,17 +43,17 @@ a img { filter:grayscale(1); transition: 1s }
 .card a:hover img, .featured-wolf a:hover img, a img:hover { filter: grayscale(0)!important }
     
 
+/* x 000000c4 */  
+
+#main {
+  background: red;
+  padding: 60px;
+  border: 1px solid #eee3 }
 
 
 
 
 /* x */  
-
-#main {
-  background: #000000c4;
-  padding: 60px;
-  border: 1px solid #eee3 }
-
 
 .card.mb-3, .featured-wolf img {
     border: 1px solid #eee3;
