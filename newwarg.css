@@ -40,11 +40,10 @@ th.pt-1.pb-1::before { content: "The Lich "; font-size: 40px!important }
 /* LEAD WOLF TITLE BACKGROUND */  
 .table th, #main .card, .card.text-center { background: #b32b2b; background-blend-mode: darken; }
 
-/* WOLF CARD BACKGROUND */  
+/* WOLF CARDS */  
 .table-striped tbody tr:nth-of-type(odd), .form-control { background-color: transparent }
 td.left.b { vertical-align: middle }
-        
-/* WOLF IMAGE HOVER GREYSCALE */        
+           
 img { filter: grayscale(1); }
 a img { filter:grayscale(1); transition: 1s }
 .card a:hover img, .featured-wolf a:hover img, a img:hover { filter: grayscale(0)!important } 
@@ -58,7 +57,7 @@ a img { filter:grayscale(1); transition: 1s }
 
 /* ALERTS */  
 #summernote-form, .alert {
-    background: none;
+    background: #b32b2b; background-blend-mode: darken; 
     border: 0;
     float: right;
     color: inherit;
