@@ -69,6 +69,8 @@ form .table.table-striped tbody tr td div>div a:before { content: "ᛉ"; color: 
   border: 0px solid #eee3 }
 .card.mb-3, .featured-wolf img { border: 0px solid #eee3; }
 
+tr { border-top: 1px solid #222 }
+
 /* ALERTS */  
 #summernote-form, .alert {
     background: none;
@@ -84,11 +86,6 @@ form .table.table-striped tbody tr td div>div a:before { content: "ᛉ"; color: 
 /* Untested */  
 
 
-tr { border-top: 50px solid #222 }
-
-
-
-/* tr { border-top: 1px solid #222 } */  
 
 td.right.text-right { text-align: center!important; vertical-align: middle!important; border-left: 1px solid #222 }
 
