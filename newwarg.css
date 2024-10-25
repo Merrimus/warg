@@ -40,8 +40,7 @@ th.pt-1.pb-1::before { content: "The Lich "; font-size: 40px!important }
 /* WOLF IMAGE HOVER GREYSCALE */        
 img { filter: grayscale(1); }
 a img { filter:grayscale(1); transition: 1s }
-.card a:hover img, .featured-wolf a:hover img, a img:hover { filter: grayscale(0)!important }
-    
+.card a:hover img, .featured-wolf a:hover img, a img:hover { filter: grayscale(0)!important } 
 
 /* CONTENT (BACKGROUND COLOR, BORDERS) */  
 #main {
@@ -52,14 +51,16 @@ a img { filter:grayscale(1); transition: 1s }
 .card.mb-3, .featured-wolf img {
     border: 0px solid #eee3; }
 
+/* DEN BACKGROUND */  
+.table th, #main .card, .card.text-center { background: red }
 
-/* Untested */  
-
-.table th, #main .card, .card.text-center { background: #161616 }
+/* WOLF CARD BACKGROUND */  
 .table-striped tbody tr:nth-of-type(odd), .form-control { background-color: transparent }
-
 td.left.b { vertical-align: middle }
 
+
+
+/* Untested */  
 
 .table .subheader { background: #000 }
 /* .table-striped td.text-right img, .mr-2, .mx-2 { background: #eee3; padding: 5px; border-radius: 20px } */
