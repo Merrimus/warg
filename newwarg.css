@@ -5,15 +5,16 @@
 @import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,500;1,400&display=swap');
 
-/* HIDING THINGS */
+/* PARAMETERS */
 #footer { background: none; font-size: 80%; padding-top: 20px; }
 #uimid { display: none!important }
 #sidebar, .nav-tabs, .navbar-status, .breadcrumb-nav { display: none }
-
-/* PARAMETERS */
 @media (min-width: 1200px) { 
 #main { flex: 1; max-width: 100%; background: none; margin-bottom: -1px }
 .container>.row { display: block!important }
+.table .subheader { background: #000 }
+.table-striped td.text-right img, .mr-2, .mx-2 { width: 10px }
+br, #footer { display: none }
 
 /* BODY (CURSOR, FONT, BACKGROUND) */
 body { cursor: text;
@@ -60,10 +61,7 @@ a img { filter:grayscale(1); transition: 1s }
 
 /* TESTING */  
 
-.table .subheader { background: red }
-/* .table-striped td.text-right img, .mr-2, .mx-2 { background: #eee3; padding: 5px; border-radius: 20px } */
-.table-striped td.text-right img, .mr-2, .mx-2 { width: 10px }
-br, #footer { display: none }
+
 
 
 
