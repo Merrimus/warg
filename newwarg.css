@@ -29,7 +29,10 @@ br, #footer { display: none }
 td.left { background: #FF0000!important; font-size: 80%; font-weight: 100; text-align: right; letter-spacing: 1px; text-transform: uppercase }
 td.row { margin: 0!important }
 td.right.text-right { text-align: center!important; vertical-align: middle!important; border-left: 1px solid #222 }
-
+.note-editor { filter: invert(1) }
+#footer ul, select { background: none!important }
+div.col-xl-6.col-sm-12.order-xl-9.order-12, .featured-wolf, .col-xl-3.col-sm-7.text-center { align-self: center }
+           
 /* HEADER CHANGES */
 #header .navbar-main .nav-link { font-size: 9px; letter-spacing: 1px; margin-right: 15px }
 #header .navbar-main { min-height: 115px; background: none } }
@@ -80,7 +83,7 @@ form .table.table-striped tbody tr td div>div a:before { content: "ᛉ"; color: 
 .subheader { display: none }
 h3.mb-0 { padding: 10px; text-align: right; font-style: italic; background: #eee1; font-size: 2rem }
 
-/* CONTENT (BACKGROUND COLOR, BORDERS, DEN UPDATE BAR) */  
+/* CONTENT (BACKGROUND COLOR, BORDERS, DEN UPDATE BAR, DEN PAGE EDITOR) */  
 #main { background: #000000c4;
        padding: 60px;
        border: 0px solid #eee3 }
@@ -89,6 +92,7 @@ h3.mb-0 { padding: 10px; text-align: right; font-style: italic; background: #eee
 tr { border-top: 1px solid #222 }
 
 .table .bottom, .table tfoot td { color: inherit; background: #111!important }
+.note-editor { filter: invert(1) }
 
 /* DEN TITLES */  
 th.top { padding: 20px 25px; background-image: url(https://images2.imgbox.com/7a/41/mvmBEhMr_o.jpg)!important;
@@ -128,15 +132,14 @@ form#summernote-form { background: #000; padding: 20px; border: 1px solid #222 }
 
 /* TEST */
 
-/* Untested */ 
+
+select option { background: red!important; color: inherit!important }
+
+/* Untested select option { background: #000!important; color: inherit!important }*/ 
 
 
 
 
-.note-editor { filter: invert(1) }
-#footer ul, select { background: none!important }
-div.col-xl-6.col-sm-12.order-xl-9.order-12, .featured-wolf, .col-xl-3.col-sm-7.text-center { align-self: center }
-select option { background: #000!important; color: inherit!important }
 
 .table-striped td.text-right img { margin: 0 5px }
 
