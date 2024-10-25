@@ -60,6 +60,7 @@ a img { filter:grayscale(1); transition: 1s }
 #summernote-form, .alert {
     background: none;
     border: 0;
+    float: right;
     color: inherit;
     padding: 0 5px 5px;}
 
