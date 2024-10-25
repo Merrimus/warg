@@ -39,6 +39,7 @@ img.float-left.mr-2 { background: none; border-radius: 0; padding: 0; }
 .navbar-nav { padding-top: 0 }
 a img.border-bottom, img.rounded-bottom { border: 1px solid #333!important; box-sizing: border-box; display: block }   
 .p-0 { padding: 1em!important; min-width: 9em; }
+.bg-light, .btn-light { background: #0f0f0f!important; color: inherit; }
            
 /* HEADER CHANGES */
 #header .navbar-main .nav-link { font-size: 9px; letter-spacing: 1px; margin-right: 15px }
@@ -138,13 +139,10 @@ form#summernote-form { background: #000; padding: 20px; border: 1px solid #222 }
 
 
 /* TEST */
-.bg-light, .btn-light { background: red!important; color: inherit; }
 
 
-/* Untested .bg-light, .btn-light {
-    background: #0f0f0f!important;
-    color: inherit;
-}*/ 
+
+/* Untested */ 
 
 
 
