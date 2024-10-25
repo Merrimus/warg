@@ -35,7 +35,7 @@ a:hover, #footer nav .nav-item .nav-link:hover, #header .navbar-main .active .na
 .pt-1.pb-1, .featured-wolf b { line-height: 1; font-size: 0!important } .pt-1.pb-1 a { font-size: 40px!important }
 th.pt-1.pb-1::before { content: "Lich "; font-size: 40px!important }
 .featured-wolf { font-size: 0!important }
-.featured-wolf b::before { content: "dead doesn't mean gone"; font-size: 5rem!important; font-style: italic }
+.featured-wolf b::before { content: "dead doesn't mean gone"; font-size: .875rem!important; font-style: italic }
 
 #main { flex: 1; max-width: 100%; background: none; margin-bottom: -1px }
 .container>.row { display: block!important }
