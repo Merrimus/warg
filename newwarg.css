@@ -71,9 +71,9 @@ form .table.table-striped tbody tr td div>div a:before { content: "ᛉ"; color: 
 
 /* Untested */  
 
-.user-tag, .float-left.mr-2 { border: 0px solid #eee3 }
-tr { border-top: 0px solid #222 }
-td.right.text-right { text-align: center!important; vertical-align: middle!important; border-left: 0px solid #222 }
+.user-tag, .float-left.mr-2 { border: 1px solid #eee3 }
+tr { border-top: 1px solid #222 }
+td.right.text-right { text-align: center!important; vertical-align: middle!important; border-left: 1px solid #222 }
 
 
 
