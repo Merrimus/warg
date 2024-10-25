@@ -7,6 +7,7 @@
 
 /* PACK NAME FORMATTING */
 h1 { color: #ffffff2e; text-align: center; font-size: 100px!important; margin: 0!important; line-height: 1;}
+p { text-align: center; }
 
 /* DEN PAGE CONTENT */
 #main>h1 { display: none }
