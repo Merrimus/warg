@@ -21,7 +21,7 @@ a, .table th a, .alert-info .alert-link, .alert-success .alert-link { color: #ff
 a:hover, #footer nav .nav-item .nav-link:hover, #header .navbar-main .active .nav-link, #header .navbar-main .active .nav-link .fa, #header .navbar-main .nav-link:hover, #header .navbar-main .nav-link:hover .fa { text-decoration: line-through; color: #fff } 
 
 /* PACK NAME FORMATTING */
-h1 { color: #ffffff2e; text-align: center; font-size: 100px!important; margin: 0!important; line-height: 1;}
+h1 { color: #FFFFFF; text-align: center; font-size: 100px!important; margin: 0!important; line-height: 1;}
 
 /* LEAD TITLE, FEATURED WOLF DISPLAY */   
 .pt-1.pb-1, .featured-wolf b { line-height: 1; font-size: 0!important } .pt-1.pb-1 a { font-size: 50px!important; text-decoration:none!important; }
