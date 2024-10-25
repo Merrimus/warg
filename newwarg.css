@@ -65,7 +65,7 @@ th.pt-1.pb-1::before { content: "The Lich "; font-size: 40px!important }
 .featured-wolf::before { content: "dead doesn't mean gone"; font-size: .875rem!important; font-style: italic }
 
 /* LEAD WOLF (TITLE BACKGROUND, STATUS EFFECTS) */  
-.table th, #main .card, .card.text-center { background: #b32b2b; background-blend-mode: darken; }
+.table th, #main .card, .card.text-center { background-image: url(https://images2.imgbox.com/7a/41/mvmBEhMr_o.jpg)!important; background: #b32b2b; background-blend-mode: darken; }
 
 .form-row .card, td.right.text-right, .pb-1, .py-1 {
     background-image: url(https://images2.imgbox.com/7a/41/mvmBEhMr_o.jpg)!important;
