@@ -25,6 +25,7 @@
 .table-striped td.text-right img, .mr-2, .mx-2 { width: 10px }
 br, #footer { display: none }
 .user-tag, .float-left.mr-2 { border: 0px solid #eee3 }
+td.left { background: #FF0000!important; font-size: 80%; font-weight: 100; text-align: right; letter-spacing: 1px; text-transform: uppercase }
            
 /* BODY (CURSOR, FONT, BACKGROUND) */
 body { cursor: text;
@@ -70,21 +71,19 @@ form .table.table-striped tbody tr td div>div a:before { content: "ᛉ"; color: 
   border: 0px solid #eee3 }
 .card.mb-3, .featured-wolf img { border: 0px solid #eee3; }
 
-/* ALERTS */  
+/* ALERTS (when broken, try: max-height:10px; overflow:hidden;)*/  
 #summernote-form, .alert {
     background: none;
     border: 0;
     border-bottom: 0px solid #eee3;
     color: inherit;
-    padding: 0 5px 5px;
-}
+    padding: 0 5px 5px;}
 
 
 
 
 
 /* Untested */  
-td.left { background: #FF0000!important; font-size: 80%; font-weight: 100; text-align: right; letter-spacing: 1px; text-transform: uppercase }
 
 
 
