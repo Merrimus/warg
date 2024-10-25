@@ -33,6 +33,9 @@ td.right.text-right { text-align: center!important; vertical-align: middle!impor
 #footer ul, select { background: none!important }
 div.col-xl-6.col-sm-12.order-xl-9.order-12, .featured-wolf, .col-xl-3.col-sm-7.text-center { align-self: center }
 .table-striped td.text-right img { margin: 0 5px }
+h3.mb-0 i { vertical-align: middle; display: inline; font-size: 50%; margin-right: 10px; filter: opacity(.2) }
+img.float-left.mr-2 { background: none; border-radius: 0; padding: 0; }
+.navbar-nav { padding-top: 0 }
            
 /* HEADER CHANGES */
 #header .navbar-main .nav-link { font-size: 9px; letter-spacing: 1px; margin-right: 15px }
@@ -132,15 +135,13 @@ form#summernote-form { background: #000; padding: 20px; border: 1px solid #222 }
 
 
 /* TEST */
-h3.mb-0 i { vertical-align: middle; display: inline; font-size: 50%; margin-right: 10px; filter: opacity(1) }
 
-/* Untested h3.mb-0 i { vertical-align: middle; display: inline; font-size: 50%; margin-right: 10px; filter: opacity(.2) } */ 
-
+/* Untested */ 
 
 
 
-img.float-left.mr-2 { background: none; border-radius: 0; padding: 0; }
-.navbar-nav { padding-top: 0 }
+
+
 
 a img.border-bottom, img.rounded-bottom { border: 1px solid #333!important; box-sizing: border-box; display: block }
 td.b { width: 35% }
