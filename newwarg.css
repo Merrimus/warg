@@ -73,8 +73,9 @@ form .table.table-striped tbody tr td div>div a:before { content: "ᛉ"; color: 
 
 /* Untested */  
 
+.user-tag, .float-left.mr-2 { border: 1px solid red }
 
-.user-tag, .float-left.mr-2 { border: 1px solid #eee3 }
+
 
 td.left { background: #000!important; font-size: 80%; font-weight: 100; text-align: right; letter-spacing: 1px; text-transform: uppercase }
 
@@ -142,11 +143,11 @@ th.top {
 }
 
 .note-popover .popover-content, .note-toolbar { padding: 0 0 5px }
-h1, h2, h3, h4, h5, h6, th.pt-1.pb-1 { font-family: 'East Sea Dokdo', cursive; }
-
-.small, small { font-size: 9px; text-transform: uppercase; letter-spacing: 1px }
 
 th, .table a, #footer nav .nav-item .nav-link { font-weight: 100 }
+h1, h2, h3, h4, h5, h6, th.pt-1.pb-1 { font-family: 'East Sea Dokdo', cursive; }
+.small, small { font-size: 9px; text-transform: uppercase; letter-spacing: 1px }
+
 
 td.b { text-align: right; font-weight: 100; text-transform: uppercase; font-weight: bold; font-size: 9px; letter-spacing: 1px }
 
@@ -194,7 +195,6 @@ td.b { width: 35% }
 
 
 
-
 /* DEN PAGE CONTENT */
 #main>h1 { display: none }
 .cross { width: 50px; height: 50px; position: relative; filter: brightness(.4) }
@@ -203,3 +203,4 @@ td.b { width: 35% }
 .bones { display: flex; align-items: center; margin: -2em -1em }
 .bones>div { margin: 1em }
 .mb-3, .my-3 { margin: 0!important }
+
