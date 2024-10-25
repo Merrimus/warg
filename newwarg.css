@@ -7,7 +7,7 @@ If you steal this - be sure to love yourself enough to make it your own. - ùñú
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,500;1,400&display=swap');
 
 /* HIDING THINGS */
-#footer { background: none }
+#footer { background: none; font-size: 80%; padding-top: 20px; }
 #uimid { display: none!important }
 #sidebar, .nav-tabs, .navbar-status, .breadcrumb-nav { display: none }
 
@@ -44,8 +44,7 @@ img { filter: grayscale(1); }
 a img { filter:grayscale(1); transition: 1s }
 .card a:hover img, .featured-wolf a:hover img, a img:hover { filter: grayscale(0)!important }
     
-/* FOOTER */        
-#footer { font-size: 80%; padding-top: 20px; }
+
 
 
 
