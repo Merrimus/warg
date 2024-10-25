@@ -118,6 +118,9 @@ table.table.table-striped td { vertical-align: middle; }
 form#summernote-form { background: #000; padding: 20px; border: 1px solid #222 }
 .note-popover .popover-content, .note-toolbar { padding: 0 0 5px }
 
+
+
+
 /* TEST */
 
 .table .bottom, .table tfoot td { color: inherit; background: red!important }
@@ -127,7 +130,6 @@ form#summernote-form { background: #000; padding: 20px; border: 1px solid #222 }
 
 
 
-.table .bottom, .table tfoot td { color: inherit; background: #111!important }
 td { background: #000 }
 .note-editor { filter: invert(1) }
 #footer ul, select { background: none!important }
