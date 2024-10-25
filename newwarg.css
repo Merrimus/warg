@@ -13,7 +13,7 @@
 .skeletal { margin-bottom:-150px; margin-top:-150px; opacity: 0.5; }
 .scattered { margin-bottom:-150px; opacity: 0.5; float: right;}
 
-/* DON'T TOUCH THESE */
+/* DON'T TOUCH */
 #footer { background: none; font-size: 80%; padding-top: 20px; }
 #uimid { display: none!important }
 #header .navbar-main { background: none!important }
@@ -27,6 +27,7 @@ br, #footer { display: none }
 .user-tag, .float-left.mr-2 { border: 0px solid #eee3 }
 td.left { background: #FF0000!important; font-size: 80%; font-weight: 100; text-align: right; letter-spacing: 1px; text-transform: uppercase }
 td.row { margin: 0!important }
+td.right.text-right { text-align: center!important; vertical-align: middle!important; border-left: 1px solid #222 }
            
 /* BODY (CURSOR, FONT, BACKGROUND) */
 body { cursor: text;
@@ -49,7 +50,7 @@ th.pt-1.pb-1::before { content: "The Lich "; font-size: 40px!important }
 .featured-wolf { font-size: 0!important }
 .featured-wolf::before { content: "dead doesn't mean gone"; font-size: .875rem!important; font-style: italic }
 
-/* LEAD WOLF (TITLE BACKGROUND, ALERT BACKGROUND) */  
+/* LEAD WOLF (TITLE BACKGROUND, STATUS EFFECTS) */  
 .table th, #main .card, .card.text-center { background: #b32b2b; background-blend-mode: darken; }
 
 .form-row .card, td.right.text-right, .pb-1, .py-1 {
@@ -68,6 +69,16 @@ a img { filter:grayscale(1); transition: 1s }
 
 form .table.table-striped tbody tr td div>div a:before { content: "ᛉ"; color: #999; margin: 0 5px; width: 10px; display: inline-block; font-size: 100%;  }
 
+.form-row .card, .pb-1, .py-1 { background-attachment: fixed!important }
+.form-row .card { border: 1px solid #1d1d1d!important }
+.pb-1, .py-1 { padding: 20px!important }
+.form-row .card-header b { text-transform: uppercase; letter-spacing: 1px; font-size: 80%; padding: 20px; font-weight: 100;}
+.form-row .card-img-top { display: none }
+.card-header { padding: 30px;}
+.card.text-center { border: 0!important; background: none!important }
+.subheader { display: none }
+h3.mb-0 { padding: 10px; text-align: right; font-style: italic; background: #eee1; font-size: 2rem }
+
 /* CONTENT (BACKGROUND COLOR, BORDERS) */  
 #main {
   background: #000000c4;
@@ -78,13 +89,16 @@ form .table.table-striped tbody tr td div>div a:before { content: "ᛉ"; color: 
 tr { border-top: 1px solid #222 }
 
 /* ALERTS */  
-#summernote-form, .alert {
-    background: none;
-    border: 0;
-    border-bottom: 0px solid #eee3;
-    color: inherit;
-    padding: 0 5px 5px;}
-
+#summernote-form, .alert { background: none; border: 0; border-bottom: 0px solid #eee3; color: inherit; padding: 0 5px 5px;}
+.text-danger { color: inherit!important }
+.form-control { border: 0; color: #fff!important }
+.btn-success, .btn-warning { border-bottom-color: #eee3; color: #fff!important; background-color: #3d2424; color: #fff }
+.btn-success:hover, .btn-warning:hover { background: #856c6c; border-bottom-color: #eee3; }
+.progress { height: 6px!important; background: #ddd0!important; outline: 1px solid #eee3; margin: 2px; outline-offset: -1px }
+.bg-warning, .bg-primary, .bg-danger, .bg-info, .bg-success { background-color: #eee3!important }
+select { background: #000 }
+table.table.table-striped td { vertical-align: middle; }
+form#summernote-form { background: #000; padding: 20px; border: 1px solid #222 }
 
 /* TESTING */  
 
@@ -97,39 +111,11 @@ tr { border-top: 1px solid #222 }
 
 
 
-.form-row .card, .pb-1, .py-1 { background-attachment: fixed!important }
-.form-row .card { border: 1px solid #1d1d1d!important }
-
-.pb-1, .py-1 { padding: 20px!important }
-
-.form-row .card-header b { text-transform: uppercase; letter-spacing: 1px; font-size: 80%; padding: 20px; font-weight: 100;}
-.form-row .card-img-top { display: none }
-.card-header { padding: 30px;}
-
-.card.text-center { border: 0!important; background: none!important }
-
-.subheader { display: none }
 
 
-h3.mb-0 { padding: 10px; text-align: right; font-style: italic; background: #eee1; font-size: 2rem }
 
 
-.text-danger { color: inherit!important }
 
-.form-control { border: 0; color: #fff!important }
-.btn-success, .btn-warning { border-bottom-color: #eee3; color: #fff!important; background-color: #3d2424; color: #fff }
-.btn-success:hover, .btn-warning:hover { background: #856c6c; border-bottom-color: #eee3; }
-
-.progress { height: 6px!important; background: #ddd0!important; outline: 1px solid #eee3; margin: 2px; outline-offset: -1px }
-
-.bg-warning, .bg-primary, .bg-danger, .bg-info, .bg-success { background-color: #eee3!important }
-
-select { background: #000 }
-
-table.table.table-striped td { vertical-align: middle; }
-
-
-form#summernote-form { background: #000; padding: 20px; border: 1px solid #222 }
 
 th.top {
     padding: 20px 25px;
@@ -189,8 +175,4 @@ td.b { width: 35% }
     flex: 0 0 20%;
     max-width: 20%;
 } }
-
-
-/* LINES THAT SEEM TO DO NOTHING */
-/* td.right.text-right { text-align: center!important; vertical-align: middle!important; border-left: 1px solid #222 } */
 
