@@ -32,7 +32,7 @@ a:hover, #footer nav .nav-item .nav-link:hover, #header .navbar-main .active .na
 @media (min-width: 1200px) { 
     
 /* TITLE, FEATURED WOLVES */   
-.pt-1.pb-1, .featured-wolf b { line-height: 1; font-size: 0!important } .pt-1.pb-1 a { font-size: 75px!important }
+.pt-1.pb-1, .featured-wolf b { line-height: 1; font-size: 0!important } .pt-1.pb-1 a { font-size: 50px!important }
 th.pt-1.pb-1::before { content: "Lich "; font-size: 40px!important }
 .featured-wolf { font-size: 0!important }
 .featured-wolf b::before { content: "dead doesn't mean gone"; font-size: .875rem!important; font-style: italic }
