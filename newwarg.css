@@ -70,7 +70,6 @@ form .table.table-striped tbody tr td div>div a:before { content: "ᛉ"; color: 
 .card.mb-3, .featured-wolf img { border: 0px solid #eee3; }
 
 tr { border-top: 1px solid #222 }
-/* td.right.text-right { text-align: center!important; vertical-align: middle!important; border-left: 1px solid #222 } */
 
 /* ALERTS */  
 #summernote-form, .alert {
@@ -81,18 +80,20 @@ tr { border-top: 1px solid #222 }
     padding: 0 5px 5px;}
 
 
-
-
-
-/* Untested */  
+/* TESTING */  
 
 
 .form-row .card, td.right.text-right, .pb-1, .py-1 {
     background-image: url(https://images2.imgbox.com/7a/41/mvmBEhMr_o.jpg)!important;
     background-size: cover!important; background-position: 50% 50%!important;
-    background-color: #b32b2b;
-    background-blend-mode: darken;
-}
+    background-color: red;
+    background-blend-mode: darken; }
+
+
+/* Untested */  
+
+
+
 
 .form-row .card, .pb-1, .py-1 { background-attachment: fixed!important }
 .form-row .card { border: 1px solid #1d1d1d!important }
@@ -186,3 +187,8 @@ td.b { width: 35% }
     flex: 0 0 20%;
     max-width: 20%;
 } }
+
+
+/* LINES THAT SEEM TO DO NOTHING */
+/* td.right.text-right { text-align: center!important; vertical-align: middle!important; border-left: 1px solid #222 } */
+
