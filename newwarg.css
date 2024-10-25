@@ -1,5 +1,10 @@
 /* Once upon a time, someone loved me enough to make me a custom CSS. But everything changes, just like this code. 𓃦 */
 
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,500;1,400&display=swap');
+
 /* DON'T TOUCH */
 #footer { background: none; font-size: 80%; padding-top: 20px; }
 #uimid { display: none!important }
@@ -29,11 +34,6 @@ a img.border-bottom, img.rounded-bottom { border: 1px solid #333!important; box-
 .bg-light, .btn-light { background: #0f0f0f!important; color: inherit; }
 .card.bg-transparent.mb-0 { height: auto!important }
 .bg-dark, .bg-light { background-color: transparent!important; }
-
-/* FONTS */
-@import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,500;1,400&display=swap');
 
 /* PACK TITLE */
 #main>h1 { color: #ffffff2e; text-align: center!important; margin: 0!important; font-size: 100px!important; line-height: 1; 
