@@ -23,7 +23,8 @@ background-image: url('https://images2.imgbox.com/7a/41/mvmBEhMr_o.jpg'); backgr
 
 /* HEADER CHANGES */
 #header .navbar-main .nav-link { font-size: 9px; letter-spacing: 1px; margin-right: 15px }
-#header .navbar-main { min-height: 115px; background: none } }
+#header .navbar-main { min-height: 115px; background: none!important } }
+
 .nav-item i { vertical-align: middle; display: inline }
 #header .navbar-main .nav-link .fa { color: inherit }
 
@@ -70,19 +71,15 @@ form .table.table-striped tbody tr td div>div a:before { content: "ᛉ"; color: 
 
 /* Untested */  
 
+.user-tag, .float-left.mr-2 { border: 0px solid #eee3 }
+tr { border-top: 0px solid #222 }
+td.right.text-right { text-align: center!important; vertical-align: middle!important; border-left: 0px solid #222 }
 
-.user-tag, .float-left.mr-2 { border: 1px solid #eee3 }
+
 
 td.left { background: #000!important; font-size: 80%; font-weight: 100; text-align: right; letter-spacing: 1px; text-transform: uppercase }
 
-#header .navbar-main { background: none!important }
-
 td.row { margin: 0!important }
-
-
-tr { border-top: 1px solid #222 }
-
-td.right.text-right { text-align: center!important; vertical-align: middle!important; border-left: 1px solid #222 }
 
 .form-row .card, td.right.text-right, .pb-1, .py-1 {
     background-image: url(https://images2.imgbox.com/7a/41/mvmBEhMr_o.jpg)!important;
