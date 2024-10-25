@@ -16,7 +16,7 @@
 .bones>div { margin: 1em }
 .mb-3, .my-3 { margin: 0!important }
 
-.tester { margin-bottom:-150px; margin-top:-150px; opacity: 0.8; }
+.tester { margin-bottom:-150px; margin-top:-150px; opacity: 0.5; }
 
 /* DON'T TOUCH THESE */
 #footer { background: none; font-size: 80%; padding-top: 20px; }
