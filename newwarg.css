@@ -36,6 +36,13 @@ a:hover, #footer nav .nav-item .nav-link:hover, #header .navbar-main .active .na
 th.pt-1.pb-1::before { content: "The Lich "; font-size: 40px!important }
 .featured-wolf { font-size: 0!important }
 .featured-wolf::before { content: "dead doesn't mean gone"; font-size: .875rem!important; font-style: italic }
+
+/* LEAD WOLF TITLE BACKGROUND */  
+.table th, #main .card, .card.text-center { background: #b32b2b; background-blend-mode: darken; }
+
+/* WOLF CARD BACKGROUND */  
+.table-striped tbody tr:nth-of-type(odd), .form-control { background-color: transparent }
+td.left.b { vertical-align: middle }
         
 /* WOLF IMAGE HOVER GREYSCALE */        
 img { filter: grayscale(1); }
@@ -51,12 +58,6 @@ a img { filter:grayscale(1); transition: 1s }
 .card.mb-3, .featured-wolf img {
     border: 0px solid #eee3; }
 
-/* LEAD WOLF TITLE BACKGROUND */  
-.table th, #main .card, .card.text-center { background: #b32b2b; background-blend-mode: darken; }
-
-/* WOLF CARD BACKGROUND */  
-.table-striped tbody tr:nth-of-type(odd), .form-control { background-color: transparent }
-td.left.b { vertical-align: middle }
 
 
 
