@@ -6,8 +6,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,500;1,400&display=swap');
 
 /* PACK NAME FORMATTING */
-h1 { color: #ffffff2e; text-align: center; font-size: 100px!important; margin: 0!important; line-height: 1;}
-p { text-align: center; }
+h1 { color: #ffffff2e; text-align: center!important; font-size: 100px!important; margin: 0!important; line-height: 1;}
 
 /* DEN PAGE CONTENT */
 #main>h1 { display: none }
