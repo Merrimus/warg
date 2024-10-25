@@ -102,19 +102,20 @@ form#summernote-form { background: #000; padding: 20px; border: 1px solid #222 }
 
 /* TESTING */  
 
+th.top {
+    padding: 20px 25px;
+    background: #ffffff0f;
+    font-size: 100px;
+    font-family: 'East Sea Dokdo', cursive;
+    line-height: 1;
+    color: #ffffff24;
+    text-shadow: 0 0 10px #000000c7;
+    text-transform: lowercase;
+}
 
 
 
-
-/* Untested */  
-
-
-
-
-
-
-
-
+/* Untested 
 
 
 th.top {
@@ -126,7 +127,18 @@ th.top {
     color: #ffffff24;
     text-shadow: 0 0 10px #000000c7;
     text-transform: lowercase;
-}
+}*/  
+
+
+
+
+
+
+
+
+
+
+
 
 .note-popover .popover-content, .note-toolbar { padding: 0 0 5px }
 
