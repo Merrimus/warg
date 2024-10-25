@@ -74,7 +74,7 @@ form .table.table-striped tbody tr td div>div a:before { content: "ᛉ"; color: 
 
 
 /* Untested */  
-td.left { background: #000!important; font-size: 80%; font-weight: 100; text-align: right; letter-spacing: 1px; text-transform: uppercase }
+td.left { background: #FF0000!important; font-size: 80%; font-weight: 100; text-align: right; letter-spacing: 1px; text-transform: uppercase }
 
 
 
