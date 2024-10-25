@@ -124,9 +124,10 @@ form#summernote-form { background: #000; padding: 20px; border: 1px solid #222 }
 
 /* TEST */
 
-td { background: red }
+/* DEN CONTENT BACKGROUND */
+td { background: #ffffff0f }
 
-/* Untested td { background: #000 } */ 
+/* Untested */ 
 
 
 
