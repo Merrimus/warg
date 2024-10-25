@@ -3,9 +3,10 @@
 @import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,500;1,400&display=swap');
 
-
 #footer { background: none }
 #uimid { display: none!important }
+
+/* BODY */
 
 body { cursor: default;
 color: #999;
@@ -14,10 +15,10 @@ color: #999;
 background-image: url('https://images2.imgbox.com/7a/41/mvmBEhMr_o.jpg'); background-color: #000; background-attachment: fixed; background-size: cover; background-position: 50% 50% }
 
 
-/* CSS CREDIT */
+/* WATCH THIS */
 
 th.pt-1.pb-1::after, .table.mt-3 th.top::after {
-	color: rgba(255, 255, 255, 1);
+	color: red;
 	position: absolute;
 	right: 3%;
 }
