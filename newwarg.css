@@ -1,5 +1,35 @@
 /* Once upon a time, someone loved me enough to make me a custom CSS. But everything changes, just like this code. 𓃦 */
 
+/* DON'T TOUCH */
+#footer { background: none; font-size: 80%; padding-top: 20px; }
+#uimid { display: none!important }
+#header .navbar-main { background: none!important }
+#sidebar, .nav-tabs, .navbar-status, .breadcrumb-nav { display: none }
+@media (min-width: 1200px) { 
+@media (min-width: 768px) { .form-row .col-md-2 { -ms-flex: 0 0 20%; flex: 0 0 20%; max-width: 20%;} }
+#main { flex: 1; max-width: 100%; background: none; margin-bottom: -1px }
+.container>.row { display: block!important }
+.table .subheader { background: #000 }
+.table-striped td.text-right img, .mr-2, .mx-2 { width: 10px }
+br, #footer { display: none }
+.user-tag, .float-left.mr-2 { border: 0px solid #eee3 }
+td.b { width: 35% }
+td.left { background: #FF0000!important; font-size: 80%; font-weight: 100; text-align: right; letter-spacing: 1px; text-transform: uppercase }
+td.row { margin: 0!important }
+td.right.text-right { text-align: center!important; vertical-align: middle!important; border-left: 1px solid #222 }
+.note-editor { filter: invert(1) }
+#footer ul, select { background: none!important }
+div.col-xl-6.col-sm-12.order-xl-9.order-12, .featured-wolf, .col-xl-3.col-sm-7.text-center { align-self: center }
+.table-striped td.text-right img { margin: 0 5px }
+h3.mb-0 i { vertical-align: middle; display: inline; font-size: 50%; margin-right: 10px; filter: opacity(.2) }
+img.float-left.mr-2 { background: none; border-radius: 0; padding: 0; }
+.navbar-nav { padding-top: 0 }
+a img.border-bottom, img.rounded-bottom { border: 1px solid #333!important; box-sizing: border-box; display: block }   
+.p-0 { padding: 1em!important; min-width: 9em; }
+.bg-light, .btn-light { background: #0f0f0f!important; color: inherit; }
+.card.bg-transparent.mb-0 { height: auto!important }
+.bg-dark, .bg-light { background-color: transparent!important; }
+
 /* FONTS */
 @import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap');
@@ -106,36 +136,6 @@ select { background: #000 }
 table.table.table-striped td { vertical-align: middle; }
 form#summernote-form { background: #000; padding: 20px; border: 1px solid #222 }
 .note-popover .popover-content, .note-toolbar { padding: 0 0 5px }
-
-/* DON'T TOUCH */
-#footer { background: none; font-size: 80%; padding-top: 20px; }
-#uimid { display: none!important }
-#header .navbar-main { background: none!important }
-#sidebar, .nav-tabs, .navbar-status, .breadcrumb-nav { display: none }
-@media (min-width: 1200px) { 
-@media (min-width: 768px) { .form-row .col-md-2 { -ms-flex: 0 0 20%; flex: 0 0 20%; max-width: 20%;} }
-#main { flex: 1; max-width: 100%; background: none; margin-bottom: -1px }
-.container>.row { display: block!important }
-.table .subheader { background: #000 }
-.table-striped td.text-right img, .mr-2, .mx-2 { width: 10px }
-br, #footer { display: none }
-.user-tag, .float-left.mr-2 { border: 0px solid #eee3 }
-td.b { width: 35% }
-td.left { background: #FF0000!important; font-size: 80%; font-weight: 100; text-align: right; letter-spacing: 1px; text-transform: uppercase }
-td.row { margin: 0!important }
-td.right.text-right { text-align: center!important; vertical-align: middle!important; border-left: 1px solid #222 }
-.note-editor { filter: invert(1) }
-#footer ul, select { background: none!important }
-div.col-xl-6.col-sm-12.order-xl-9.order-12, .featured-wolf, .col-xl-3.col-sm-7.text-center { align-self: center }
-.table-striped td.text-right img { margin: 0 5px }
-h3.mb-0 i { vertical-align: middle; display: inline; font-size: 50%; margin-right: 10px; filter: opacity(.2) }
-img.float-left.mr-2 { background: none; border-radius: 0; padding: 0; }
-.navbar-nav { padding-top: 0 }
-a img.border-bottom, img.rounded-bottom { border: 1px solid #333!important; box-sizing: border-box; display: block }   
-.p-0 { padding: 1em!important; min-width: 9em; }
-.bg-light, .btn-light { background: #0f0f0f!important; color: inherit; }
-.card.bg-transparent.mb-0 { height: auto!important }
-.bg-dark, .bg-light { background-color: transparent!important; }
            
 
 
