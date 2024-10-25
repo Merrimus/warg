@@ -140,9 +140,11 @@ form#summernote-form { background: #000; padding: 20px; border: 1px solid #222 }
 
 
            
-/* TEST  .card-header { display:inline-table; padding: 30px; }*/
+/* TEST */
 
-.form-row .card-header b { text-transform: uppercase; letter-spacing: 1px; font-size: 80%; padding: 20px; font-weight: 100;}
+.form-row .card-header b { text-transform: uppercase; letter-spacing: 1px; font-size: 80%; padding: 20px; font-weight: 100;
+                         
+                         display: block;}
 
 
 
