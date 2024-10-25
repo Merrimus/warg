@@ -63,11 +63,7 @@ form .table.table-striped tbody tr td div>div a:before { content: "ᛉ"; color: 
 
 /* ALERTS */  
 #summernote-form, .alert {
-    background: none; 
-    border: 0px;
-    float: right;
-    color: inherit;
-    padding: 0 5px 5px;}
+    display:none;}
 
 
 
