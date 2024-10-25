@@ -124,12 +124,13 @@ form#summernote-form { background: #000; padding: 20px; border: 1px solid #222 }
 
 /* TEST */
 
+td { background: red }
 
-/* Untested  */ 
+/* Untested td { background: #000 } */ 
 
 
 
-td { background: #000 }
+
 .note-editor { filter: invert(1) }
 #footer ul, select { background: none!important }
 div.col-xl-6.col-sm-12.order-xl-9.order-12, .featured-wolf, .col-xl-3.col-sm-7.text-center { align-self: center }
