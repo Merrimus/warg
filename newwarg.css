@@ -43,10 +43,9 @@ a img { filter:grayscale(1); transition: 1s }
 .card a:hover img, .featured-wolf a:hover img, a img:hover { filter: grayscale(0)!important }
     
 
-/* x  #000000c4 */  
-
+/* CONTENT BACKGROUND COLOR, PADDING, BORDER */  
 #main {
-  background: #ff0000;
+  background: #000000c4;
   padding: 60px;
   border: 1px solid #eee3 }
 
