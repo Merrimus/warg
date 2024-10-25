@@ -58,7 +58,7 @@ a img { filter:grayscale(1); transition: 1s }
 /* ALERTS */  
 #summernote-form, .alert {
     background: none; 
-    border: 1px solid #eee3;
+    border: 0px;
     float: right;
     color: inherit;
     padding: 0 5px 5px;}
