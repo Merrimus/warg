@@ -133,9 +133,7 @@ form#summernote-form { background: #000; padding: 20px; border: 1px solid #222 }
 /* TEST */
 
 
-select option { background: red!important; color: inherit!important }
-
-/* Untested select option { background: #000!important; color: inherit!important }*/ 
+/* Untested */ 
 
 
 
