@@ -136,14 +136,16 @@ form#summernote-form { background: #000; padding: 20px; border: 1px solid #222 }
 
 /* TEST */
 
-/* Untested */ 
+a img.border-bottom, img.rounded-bottom { border: 1px solid red!important; box-sizing: border-box; display: block }
+
+/* Untested a img.border-bottom, img.rounded-bottom { border: 1px solid #333!important; box-sizing: border-box; display: block } */ 
 
 
 
 
 
 
-a img.border-bottom, img.rounded-bottom { border: 1px solid #333!important; box-sizing: border-box; display: block }
+
 td.b { width: 35% }
 .p-0 {
     padding: 1em!important;
