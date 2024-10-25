@@ -4,6 +4,18 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,500;1,400&display=swap');
+
+/* DON'T TOUCH THESE */
+#footer { background: none; font-size: 80%; padding-top: 20px; }
+#uimid { display: none!important }
+#sidebar, .nav-tabs, .navbar-status, .breadcrumb-nav { display: none }
+@media (min-width: 1200px) { 
+#main { flex: 1; max-width: 100%; background: none; margin-bottom: -1px }
+.container>.row { display: block!important }
+.table .subheader { background: #000 }
+.table-striped td.text-right img, .mr-2, .mx-2 { width: 10px }
+br, #footer { display: none }
+.user-tag, .float-left.mr-2 { border: 0px solid #eee3 }
            
 /* BODY (CURSOR, FONT, BACKGROUND) */
 body { cursor: text;
@@ -57,22 +69,12 @@ form .table.table-striped tbody tr td div>div a:before { content: "ᛉ"; color: 
     color: inherit;
     padding: 0 5px 5px;}
 
-/* DON'T TOUCH THESE */
-#footer { background: none; font-size: 80%; padding-top: 20px; }
-#uimid { display: none!important }
-#sidebar, .nav-tabs, .navbar-status, .breadcrumb-nav { display: none }
-@media (min-width: 1200px) { 
-#main { flex: 1; max-width: 100%; background: none; margin-bottom: -1px }
-.container>.row { display: block!important }
-.table .subheader { background: #000 }
-.table-striped td.text-right img, .mr-2, .mx-2 { width: 10px }
-br, #footer { display: none }
-.user-tag, .float-left.mr-2 { border: 0px solid #eee3 }
-td.left { background: #fff!important; font-size: 80%; font-weight: 100; text-align: right; letter-spacing: 1px; text-transform: uppercase }
+
 
 
 
 /* Untested */  
+td.left { background: #FF0000!important; font-size: 80%; font-weight: 100; text-align: right; letter-spacing: 1px; text-transform: uppercase }
 
 
 
