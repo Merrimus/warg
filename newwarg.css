@@ -53,17 +53,20 @@ pre a:visited { color: #b32b2b; }
 pre a:hover { color: #b32b2b; }
 pre a:active { color: #b32b2b; }
 
-pre b { font-weight: bolder }
+pre b { font-variant: small-caps; font-size: 1.2em; }
 
 /* PACK TITLE */
-#main>h1 { color: white; text-align: center!important; font-size: 100px!important; line-height: 1; 
-        -webkit-text-stroke: 1px rgba(179,43,43,0.5);
-         margin-bottom: -100px !important;
-          opacity:0.8}
+#main>h1 { color: white; 
+          text-align: center!important; 
+          font-size: 100px!important; 
+          line-height: 1;
+          -webkit-text-stroke: 1px rgba(179,43,43,0.5);
+          margin-bottom: -100px !important;
+          opacity:0.8 }
 
 /* BONESTREWN CONTENT */
 .skeletal { margin-bottom:-350px; opacity: 0.5; }
-.scattered { margin-bottom:-350px; opacity: 0.5; float: right;}
+.scattered { margin-bottom:-350px; opacity: 0.5; float: right; }
 .skulls { opacity: 0.4; }
 
 /* HEADER CHANGES */
@@ -74,8 +77,14 @@ pre b { font-weight: bolder }
            
 /* BODY (CURSOR, FONT, BACKGROUND) */
 body { cursor: text;
-color: #999; font-family: georgia; font-size: 11px;
-background-image: url('https://images2.imgbox.com/7a/41/mvmBEhMr_o.jpg'); background-color: #000; background-attachment: fixed; background-size: cover; background-position: 50% 50% }
+      color: #999; 
+      font-family: georgia; 
+      font-size: 11px;
+      background-image: url('https://images2.imgbox.com/7a/41/mvmBEhMr_o.jpg'); 
+      background-color: #000; 
+      background-attachment: fixed; 
+      background-size: cover; 
+      background-position: 50% 50% }
 
 /* LINKS */
 a, .table th a, .alert-info .alert-link, .alert-success .alert-link { color: #fff; transition: .5s }
@@ -97,16 +106,21 @@ th.pt-1.pb-1::before { content: "The Lich "; font-size: 40px!important }
     background-blend-mode: darken; }
 
 /* PACK INFORMATION */
-.form-row .card-header b { text-transform: uppercase; letter-spacing: 1px; font-size: 80%; font-weight: 100;                      
-  bottom: 0;
-  right: 0;
-  background: rgba(0,0,0,0.5);
-  border-top-left-radius: 5px;
-  color: #fff;
-  : 0;
-  width: 100%;
-  position: absolute;
-  background-image: url(https://images2.imgbox.com/7a/41/mvmBEhMr_o.jpg)!important; background: #b32b2b; background-blend-mode: darken; background-attachment:fixed; }
+.form-row .card-header b { text-transform: uppercase; 
+                          letter-spacing: 1px; 
+                          font-size: 80%; 
+                          font-weight: 100;                      
+                          bottom: 0;
+                          right: 0;
+                          background: rgba(0,0,0,0.5);
+                          border-top-left-radius: 5px;
+                          color: #fff;
+                          width: 100%;
+                          position: absolute;
+                          background-image: url(https://images2.imgbox.com/7a/41/mvmBEhMr_o.jpg)!important; 
+                          background: #b32b2b; 
+                          background-blend-mode: darken; 
+                          background-attachment:fixed; }
 
 /* WOLF CARDS */  
 .table-striped tbody tr:nth-of-type(odd), .form-control { background-color: transparent }
@@ -141,10 +155,14 @@ tr { border-top: 1px solid #2f2f2f }
 .note-editor { filter: invert(1) }
 
 /* DEN TITLES */  
-th.top { padding: 20px 25px; background-image: url(https://images2.imgbox.com/7a/41/mvmBEhMr_o.jpg)!important;
-        font-size: 35px; font-family: 'East Sea Dokdo', cursive; 
+th.top { padding: 20px 25px; 
+        background-image: url(https://images2.imgbox.com/7a/41/mvmBEhMr_o.jpg)!important;
+        font-size: 35px; 
+        font-family: 'East Sea Dokdo', cursive; 
         line-height: 1; 
-        background: #b32b2b; background-blend-mode: darken; background-attachment:fixed;
+        background: #b32b2b; 
+        background-blend-mode: darken; 
+        background-attachment:fixed;
         text-shadow: 0 0 10px #000000c7; }
 
 /* ICONS */  
