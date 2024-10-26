@@ -101,7 +101,7 @@ th.pt-1.pb-1::before { content: "The Lich "; font-size: 40px!important }
 .form-row .card, td.right.text-right, .pb-1, .py-1 {
     background-image: url(https://images2.imgbox.com/7a/41/mvmBEhMr_o.jpg)!important;
     background-size: cover!important; background-position: 50% 50%!important;
-    background-color: #b32b2b;
+    background: #b32b2b;
     background-attachment:fixed;
     background-blend-mode: darken; }
 
