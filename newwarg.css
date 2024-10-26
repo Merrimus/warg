@@ -80,7 +80,7 @@ th.pt-1.pb-1::before { content: "The Lich "; font-size: 40px!important }
   background: rgba(0,0,0,0.5);
   border-top-left-radius: 5px;
   color: #fff;
-  padding: 0;
+  : 0;
   width: 100%;
   position: absolute;
   background-image: url(https://images2.imgbox.com/7a/41/mvmBEhMr_o.jpg)!important; background: #b32b2b; background-blend-mode: darken; background-attachment:fixed; }
@@ -97,16 +97,18 @@ form .table.table-striped tbody tr td div>div a:before { content: "ᛉ"; color: 
 
 .form-row .card, .pb-1, .py-1 { background-attachment: fixed!important }
 .form-row .card { border: 1px solid #1d1d1d!important }
-.pb-1, .py-1 { padding: 20px!important }
+.pb-1, .py-1 { : 20px!important }
 .form-row .card-img-top { display: none }
 
 .card.text-center { border: 0!important; background: none!important }
 .subheader { display: none }
-h3.mb-0 { padding: 10px; text-align: right; font-style: italic; background: #eee1; font-size: 2rem }
+h3.mb-0 { : 10px; text-align: right; font-style: italic; background: #eee1; font-size: 2rem }
 
 /* CONTENT (BACKGROUND COLOR, BORDERS, DEN UPDATE BAR, DEN PAGE EDITOR) */  
 #main { background: #000000c4;
-       padding: 60px;
+       padding-left: 60px;
+       padding-right: 60px;
+       padding-bottom: 60px;
        border: 0px solid #eee3 }
 
 .card.mb-3, .featured-wolf img { border: 0px solid #eee3; }
