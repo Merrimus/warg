@@ -122,7 +122,7 @@ th.pt-1.pb-1::before { content: "The Shadow Walker "; font-size: 30px!important 
                           background-attachment:fixed; }
 
 /* WOLF CARDS */  
-.table-striped tbody tr:nth-of-type(odd), .form-control { background-color: rgba(145,43,179,0.4); }
+.table-striped tbody tr:nth-of-type(odd), .form-control { background-color: transparent; }
 td.left.b { vertical-align: middle }
            
 img { filter: grayscale(1); }
@@ -131,7 +131,7 @@ a img { filter:grayscale(1); transition: 1s }
 
 form .table.table-striped tbody tr td div>div a:before { content: "ᛉ"; color: #999; margin: 0 5px; width: 10px; display: inline-block; font-size: 100%;  }
 
-.form-row .card, .pb-1, .py-1 { background-attachment: fixed!important }
+.form-row .card, .pb-1, .py-1 {background-color: rgba(145,43,179,0.4); background-attachment: fixed!important }
 .form-row .card { border: 1px solid #1d1d1d!important }
 .pb-1, .py-1 { : 20px!important }
 .form-row .card-img-top { display: none }
