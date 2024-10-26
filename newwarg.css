@@ -36,10 +36,10 @@ a img.border-bottom, img.rounded-bottom { border: 1px solid #333!important; box-
 .bg-dark, .bg-light { background-color: transparent!important; }
 
 /* PACK TITLE */
-#main>h1 { color: #ffffff2e; text-align: center!important; font-size: 100px!important; line-height: 1; 
+#main>h1 { color: white; text-align: center!important; font-size: 100px!important; line-height: 1; 
         -webkit-text-stroke: 1px rgba(248,248,248,0.15);
          margin-bottom: -100px !important;
-         margin-top: 100px;}
+         margin-top: 100px; opacity:0.8}
 
 /* BONESTREWN CONTENT */
 .skeletal { margin-bottom:-350px; opacity: 0.5; }
