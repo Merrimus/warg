@@ -80,7 +80,7 @@ body { cursor: text;
       color: #999; 
       font-family: georgia; 
       font-size: 11px;
-      background-image: url('https://images2.imgbox.com/7a/41/mvmBEhMr_o.jpg'); 
+      background-image: url('https://i.imgur.com/HgPbDQD.png'); 
       background-color: #000; 
       background-attachment: fixed; 
       background-size: cover; 
@@ -99,7 +99,7 @@ th.pt-1.pb-1::before { content: "The Lich "; font-size: 40px!important }
 /* LEAD WOLF (TITLE BACKGROUND, STATUS EFFECTS) */  
 
 .form-row .card, td.right.text-right, .pb-1, .py-1 {
-    background-image: url(https://images2.imgbox.com/7a/41/mvmBEhMr_o.jpg)!important;
+    background-image: url(https://i.imgur.com/HgPbDQD.png)!important;
     background-size: cover!important; background-position: 50% 50%!important;
     background-color: #b32b2b;
     background-attachment:fixed;
@@ -117,7 +117,7 @@ th.pt-1.pb-1::before { content: "The Lich "; font-size: 40px!important }
                           color: #fff;
                           width: 100%;
                           position: absolute;
-                          background-image: url(https://images2.imgbox.com/7a/41/mvmBEhMr_o.jpg)!important; 
+                          background-image: url(https://i.imgur.com/HgPbDQD.png)!important; 
                           background: #b32b2b; 
                           background-blend-mode: darken; 
                           background-attachment:fixed; }
@@ -156,7 +156,7 @@ tr { border-top: 1px solid #2f2f2f }
 
 /* DEN TITLES */  
 th.top { padding: 20px 25px; 
-        background-image: url(https://images2.imgbox.com/7a/41/mvmBEhMr_o.jpg)!important;
+        background-image: url(https://i.imgur.com/HgPbDQD.png)!important;
         font-size: 35px; 
         font-family: 'East Sea Dokdo', cursive; 
         line-height: 1; 
@@ -189,9 +189,12 @@ form#summernote-form { background: #000; padding: 20px; border: 1px solid #222 }
 .note-popover .popover-content, .note-toolbar { padding: 0 0 5px }
 .alert {text-align:right;} 
            
-/* Snowflake Animation - Original code by codeconvey@CodePen 
+/* Snowflake Animation - Original code by codeconvey@CodePen */
 .snowflake { color: #fff; font-size: 1em; font-family: Arial; text-shadow: 0 0 1px #000;}
 @-webkit-keyframes snowflakes-fall{0%{top:-10%}100%{top:100%}}@-webkit-keyframes snowflakes-shake{0%{-webkit-transform:translateX(0px);transform:translateX(0px)}50%{-webkit-transform:translateX(80px);transform:translateX(80px)}100%{-webkit-transform:translateX(0px);transform:translateX(0px)}}@keyframes snowflakes-fall{0%{top:-10%}100%{top:100%}}@keyframes snowflakes-shake{0%{transform:translateX(0px)}50%{transform:translateX(80px)}100%{transform:translateX(0px)}}.snowflake{position:fixed;top:-10%;z-index:9999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;cursor:default;-webkit-animation-name:snowflakes-fall,snowflakes-shake;-webkit-animation-duration:10s,3s;-webkit-animation-timing-function:linear,ease-in-out;-webkit-animation-iteration-count:infinite,infinite;-webkit-animation-play-state:running,running;animation-name:snowflakes-fall,snowflakes-shake;animation-duration:10s,3s;animation-timing-function:linear,ease-in-out;animation-iteration-count:infinite,infinite;animation-play-state:running,running}.snowflake:nth-of-type(0){left:1%;-webkit-animation-delay:0s,0s;animation-delay:0s,0s}.snowflake:nth-of-type(1){left:10%;-webkit-animation-delay:1s,1s;animation-delay:1s,1s}.snowflake:nth-of-type(2){left:20%;-webkit-animation-delay:6s,.5s;animation-delay:6s,.5s}.snowflake:nth-of-type(3){left:30%;-webkit-animation-delay:4s,2s;animation-delay:4s,2s}.snowflake:nth-of-type(4){left:40%;-webkit-animation-delay:2s,2s;animation-delay:2s,2s}.snowflake:nth-of-type(5){left:50%;-webkit-animation-delay:8s,3s;animation-delay:8s,3s}.snowflake:nth-of-type(6){left:60%;-webkit-animation-delay:6s,2s;animation-delay:6s,2s}.snowflake:nth-of-type(7){left:70%;-webkit-animation-delay:2.5s,1s;animation-delay:2.5s,1s}.snowflake:nth-of-type(8){left:80%;-webkit-animation-delay:1s,0s;animation-delay:1s,0s}.snowflake:nth-of-type(9){left:90%;-webkit-animation-delay:3s,1.5s;animation-delay:3s,1.5s}
-*/
+
+
+
+
 /* TESTING AREA */
 
