@@ -173,8 +173,9 @@ pre a:visited { color: #b32b2b; }
 pre a:hover { color: #b32b2b; }
 pre a:active { color: #b32b2b; }
 
-pre { filter: grayscale(1); }
-a pre { filter:grayscale(1); transition: 1s }
-pre a:hover { filter: grayscale(0)!important } 
+pre:hover {
+  background-color: blue;
+  color: white;
+}
 
 
