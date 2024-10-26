@@ -48,10 +48,10 @@ pre { font-size: 0.7rem;
   text-wrap: wrap;
   opacity: 0.9;}
 
-pre a:link { color: #b32b2b; }
-pre a:visited { color: #b32b2b; }
-pre a:hover { color: #b32b2b; }
-pre a:active { color: #b32b2b; }
+pre a:link { color: #912bb3; }
+pre a:visited { color: #912bb3; }
+pre a:hover { color: #912bb3; }
+pre a:active { color: #912bb3; }
 
 pre b { font-variant: small-caps; font-size: 1.2em; }
 
@@ -101,7 +101,7 @@ th.pt-1.pb-1::before { content: "The Shadow Walker "; font-size: 35px!important 
 .form-row .card, td.right.text-right, .pb-1, .py-1 {
     background-image: url(https://i.imgur.com/l1vYqH7.png)!important;
     background-size: cover!important; background-position: 50% 50%!important;
-    background-color: #b32b2b;
+    background-color: #912bb3;
     background-attachment:fixed;
     background-blend-mode: darken; }
 
@@ -118,7 +118,7 @@ th.pt-1.pb-1::before { content: "The Shadow Walker "; font-size: 35px!important 
                           width: 100%;
                           position: absolute;
                           background-image: url(https://i.imgur.com/l1vYqH7.png)!important; 
-                          background: #b32b2b; 
+                          background: #912bb3; 
                           background-blend-mode: darken; 
                           background-attachment:fixed; }
 
@@ -160,7 +160,7 @@ th.top { padding: 20px 25px;
         font-size: 35px; 
         font-family: 'Times New Roman'; 
         line-height: 1; 
-        background: #b32b2b; 
+        background: #912bb3; 
         background-blend-mode: darken; 
         background-attachment:fixed;
         text-shadow: 0 0 10px #000000c7; }
