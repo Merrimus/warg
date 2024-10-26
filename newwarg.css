@@ -60,7 +60,7 @@ pre a:active { color: #b32b2b; }
 #main>h1 { color: white; text-align: center!important; font-size: 100px!important; line-height: 1; 
         -webkit-text-stroke: 1px rgba(179,43,43,0.5);
          margin-bottom: -100px !important;
-         margin-top: 100px; opacity:0.8}
+          opacity:0.8}
 
 /* BONESTREWN CONTENT */
 .skeletal { margin-bottom:-350px; opacity: 0.5; }
