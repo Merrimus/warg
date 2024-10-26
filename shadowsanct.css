@@ -53,7 +53,7 @@ pre a:visited { color: #912bb3; }
 pre a:hover { color: #912bb3; }
 pre a:active { color: #912bb3; }
 
-pre b { font-variant: small-caps; font-size: 1.2em; }
+pre b { font-variant: small-caps; font-size: 1.2em; text-transform: lowercase;}
 
 /* PACK TITLE */
 #main>h1 { color: white; 
@@ -159,6 +159,7 @@ th.top { padding: 20px 25px;
         background-image: url(https://i.imgur.com/l1vYqH7.png)!important;
         font-size: 35px; 
         font-variant: small-caps;
+        text-transform: lowercase;
         font-family: 'Times New Roman'; 
         line-height: 1; 
         background: #912bb3; 
