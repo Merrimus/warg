@@ -75,14 +75,13 @@ th.pt-1.pb-1::before { content: "The Lich "; font-size: 40px!important }
     background-blend-mode: darken; }
 
 /* PACK INFORMATION */
-.form-row .card-header b { text-transform: uppercase; letter-spacing: 1px; font-size: 80%; font-weight: 100; 
-                        
+.form-row .card-header b { text-transform: uppercase; letter-spacing: 1px; font-size: 80%; font-weight: 100;                      
   bottom: 0;
   right: 0;
   background: rgba(0,0,0,0.5);
   border-top-left-radius: 5px;
   color: #fff;
-  padding: 5px 5px;
+  padding: 0;
   width: 100%;
   position: absolute;
   background-image: url(https://images2.imgbox.com/7a/41/mvmBEhMr_o.jpg)!important; background: #b32b2b; background-blend-mode: darken; background-attachment:fixed; }
