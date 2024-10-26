@@ -57,7 +57,7 @@ pre a:active { color: #b32b2b; }
 
 
 /* PACK TITLE */
-#main>h1 { color: rgb(179,43,43); text-align: center!important; font-size: 100px!important; line-height: 1; mix-blend-mode:darken;
+#main>h1 { color: rgb(179,43,43); text-align: center!important; font-size: 100px!important; line-height: 1;
         -webkit-text-stroke: 1px white;
          margin-bottom: -100px !important;
          margin-top: 100px; opacity:0.6}
