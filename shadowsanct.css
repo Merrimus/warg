@@ -78,7 +78,6 @@ pre b { font-variant: small-caps; font-size: 1.2em; text-transform: lowercase;}
 /* BODY (CURSOR, FONT, BACKGROUND) */
 body { cursor: text;
       color: #999; 
-     
       font-size: 11px;
       background-image: url('https://i.imgur.com/l1vYqH7.png'); 
       background-color: #000; 
@@ -92,7 +91,7 @@ a:hover, #footer nav .nav-item .nav-link:hover, #header .navbar-main .active .na
 
 /* LEAD TITLE, FEATURED WOLF DISPLAY */   
 .pt-1.pb-1, .featured-wolf b { line-height: 1; font-size: 0!important } .pt-1.pb-1 a { font-size: 50px!important; text-decoration:strikethrough!important; }
-th.pt-1.pb-1::before { content: "The Shadow Walker "; font-size: 35px!important }
+th.pt-1.pb-1::before { content: "The Shadow Walker "; font-size: 30px!important }
 .featured-wolf { font-size: 0!important }
 .featured-wolf::before { content: "dead doesn't mean gone"; font-size: .875rem!important; font-style: italic }
 
@@ -157,7 +156,7 @@ tr { border-top: 1px solid #2f2f2f }
 /* DEN TITLES */  
 th.top { padding: 20px 25px; 
         background-image: url(https://i.imgur.com/l1vYqH7.png)!important;
-        font-size: 35px; 
+        font-size: 30px; 
         font-variant: small-caps;
         text-transform: lowercase;
         font-family: 'Times New Roman'; 
