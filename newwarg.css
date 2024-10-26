@@ -168,10 +168,9 @@ max-width:100%;
         
 }
 
-pre a:link { color: #b32b2b; }
-pre a:visited { color: #b32b2b; }
-pre a:hover { color: #b32b2b; }
-pre a:active { color: #b32b2b; }
+pre a:link { color: #522b2b; }
+pre a:visited { color: #522b2b; }
+pre a:hover { color: #522b2b; }
+pre a:active { color: #522b2b; }
 
-pre b { color: #522b2b; }
 
