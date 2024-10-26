@@ -47,7 +47,7 @@ a img.border-bottom, img.rounded-bottom { border: 1px solid #333!important; box-
 #header .navbar-main .nav-link { font-size: 9px; letter-spacing: 1px; margin-right: 15px }
 #header .navbar-main { min-height: 115px; background: none } }
 .nav-item i { vertical-align: middle; display: inline }
-#header .navbar-main .nav-link .fa { color: inherit }
+#header .navbar-main .nav-link .form-row .card-header .fa { color: inherit }
            
 /* BODY (CURSOR, FONT, BACKGROUND) */
 body { cursor: text;
@@ -56,7 +56,7 @@ background-image: url('https://images2.imgbox.com/7a/41/mvmBEhMr_o.jpg'); backgr
 
 /* LINKS */
 a, .table th a, .alert-info .alert-link, .alert-success .alert-link { color: #fff; transition: .5s }
-a:hover, #footer nav .nav-item .nav-link:hover, #header .navbar-main .active .nav-link, #header .navbar-main .active .nav-link .fa, #header .navbar-main .nav-link:hover, #header .navbar-main .nav-link:hover .fa { text-decoration: line-through; color: #fff } 
+a:hover, #footer nav .nav-item .nav-link:hover, #header .navbar-main .active .nav-link, #header .navbar-main .active .nav-link .fa, #header .navbar-main .nav-link:hover, #header .navbar-main .form-row .card-header .nav-link:hover .fa { text-decoration: line-through; color: #fff } 
 
 /* LEAD TITLE, FEATURED WOLF DISPLAY */   
 .pt-1.pb-1, .featured-wolf b { line-height: 1; font-size: 0!important } .pt-1.pb-1 a { font-size: 50px!important; text-decoration:strikethrough!important; }
