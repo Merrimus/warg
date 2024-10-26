@@ -165,7 +165,8 @@ max-width:100%;
   height: 200px;
         color: white;
         text-wrap: wrap;
-        opacity: 0.3;
+        opacity: 0.2;
+        transition: .5s;
         
 }
 
