@@ -53,7 +53,7 @@ pre a:visited { color: #b32b2b; }
 pre a:hover { color: #b32b2b; }
 pre a:active { color: #b32b2b; }
 
-pre b { font-weight: extrabold }
+pre b { font-weight: bolder }
 
 /* PACK TITLE */
 #main>h1 { color: white; text-align: center!important; font-size: 100px!important; line-height: 1; 
