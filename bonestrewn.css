@@ -19,7 +19,6 @@
 br, #footer { display: none }
 .user-tag, .float-left.mr-2 { border: 0px solid #eee3 }
 td.b { width: 35% }
-td.left { background: #FF0000!important; font-size: 80%; font-weight: 100; text-align: right; letter-spacing: 1px; text-transform: uppercase }
 td.row { margin: 0!important }
 td.right.text-right { text-align: center!important; vertical-align: middle!important; border-left: 1px solid #222 }
 .note-editor { filter: invert(1) }
@@ -201,4 +200,4 @@ form#summernote-form { background: #000; padding: 20px; border: 1px solid #222 }
 
 /* TESTING AREA */
 
-
+td.left { background: transparent!important; font-size: 80%; font-weight: 100; text-align: right; letter-spacing: 1px; text-transform: uppercase }
