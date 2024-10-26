@@ -46,9 +46,7 @@ max-width:100%;
   height: 200px;
         color: white;
         text-wrap: wrap;
-        opacity: 0.2;
-        transition: .5s;
-  background:black;
+        opacity: 0.9;
         
 }
 
@@ -57,10 +55,6 @@ pre a:visited { color: #b32b2b; }
 pre a:hover { color: #b32b2b; }
 pre a:active { color: #b32b2b; }
 
-pre:hover {
-  opacity: 1;
-transition: .5s;
-}
 
 /* PACK TITLE */
 #main>h1 { color: white; text-align: center!important; font-size: 100px!important; line-height: 1; 
