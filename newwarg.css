@@ -37,9 +37,15 @@ a img.border-bottom, img.rounded-bottom { border: 1px solid #333!important; box-
 
 /* PACK TITLE */
 #main>h1 { color: white; text-align: center!important; font-size: 100px!important; line-height: 1; 
-        -webkit-text-stroke: 1px rgba(179,43,43,0.5);
+        -webkit-text-stroke: 3px rgba(179,43,43,0.5);
          margin-bottom: -100px !important;
-         margin-top: 100px; opacity:0.8}
+         margin-top: 100px; opacity:0.9}
+
+        #main>h1:hover {
+  opacity: 0.4;
+transition: .5s;
+}
+
 
 /* BONESTREWN CONTENT */
 .skeletal { margin-bottom:-350px; opacity: 0.5; }
