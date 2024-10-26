@@ -174,5 +174,8 @@ pre::first-letter {
   color: red;
 }
 
-
+#pre a:link { color: #b32b2b; }
+#pre a:visited { color: #b32b2b; }
+#pre a:hover { color: #b32b2b; }
+#pre a:active { color: #b32b2b; }
 
