@@ -42,8 +42,8 @@ a img.border-bottom, img.rounded-bottom { border: 1px solid #333!important; box-
          margin-top: 100px;}
 
 /* BONESTREWN CONTENT */
-.skeletal { margin-bottom:-150px; opacity: 0.5; }
-.scattered { margin-bottom:-150px; opacity: 0.5; float: right;}
+.skeletal { margin-bottom:-350px; opacity: 0.5; }
+.scattered { margin-bottom:-350px; opacity: 0.5; float: right;}
 
 /* HEADER CHANGES */
 #header .navbar-main .nav-link { font-size: 9px; letter-spacing: 1px; margin-right: 15px }
