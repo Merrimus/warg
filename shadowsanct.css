@@ -14,7 +14,7 @@
 @media (min-width: 768px) { .form-row .col-md-2 { -ms-flex: 0 0 20%; flex: 0 0 20%; max-width: 20%;} }
 #main { flex: 1; max-width: 100%; background: none; margin-bottom: -1px }
 .container>.row { display: block!important }
-.table .subheader { background: #000 }
+.table .subheader { background-color: rgba(145,43,179,0.4);}
 .table-striped td.text-right img, .mr-2, .mx-2 { width: 10px }
 br, #footer { display: none }
 .user-tag, .float-left.mr-2 { border: 0px solid #eee3 }
@@ -131,7 +131,7 @@ a img { filter:grayscale(1); transition: 1s }
 
 form .table.table-striped tbody tr td div>div a:before { content: "ᛉ"; color: #999; margin: 0 5px; width: 10px; display: inline-block; font-size: 100%;  }
 
-.form-row .card, .pb-1, .py-1 {background-color: rgba(145,43,179,0.4); background-attachment: fixed!important }
+.form-row .card, .pb-1, .py-1 { background-attachment: fixed!important }
 .form-row .card { border: 1px solid #1d1d1d!important }
 .pb-1, .py-1 { : 20px!important }
 .form-row .card-img-top { display: none }
@@ -150,7 +150,7 @@ h3.mb-0 { : 10px; text-align: right; font-style: italic; background: #eee1; font
 .card.mb-3, .featured-wolf img { border: 0px solid #eee3; }
 tr { border-top: 1px solid #2f2f2f }
 
-.table .bottom, .table tfoot td { color: inherit; background: #111!important }
+ .bottom,  tfoot td { color: inherit; background: #111!important }
 .note-editor { filter: invert(1) }
 
 /* DEN TITLES */  
