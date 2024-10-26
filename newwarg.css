@@ -168,14 +168,8 @@ max-width:100%;
         
 }
 
-pre::first-letter {
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: red;
-}
-
-#pre a:link { color: #b32b2b; }
-#pre a:visited { color: #b32b2b; }
-#pre a:hover { color: #b32b2b; }
-#pre a:active { color: #b32b2b; }
+pre a:link { color: #b32b2b; }
+pre a:visited { color: #b32b2b; }
+pre a:hover { color: #b32b2b; }
+pre a:active { color: #b32b2b; }
 
