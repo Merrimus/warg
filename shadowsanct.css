@@ -60,7 +60,7 @@ pre b { font-variant: small-caps; font-size: 1.2em; text-transform: lowercase;}
           text-align: center!important; 
           font-size: 100px!important; 
           line-height: 1;
-          -webkit-text-stroke: 1px rgba(179,43,43,0.5);
+          -webkit-text-stroke: 1px rgba((145,43,179,0.5);
           margin-bottom: -100px !important;
           opacity:0.8 }
 
