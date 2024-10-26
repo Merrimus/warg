@@ -157,7 +157,6 @@ form#summernote-form { background: #000; padding: 20px; border: 1px solid #222 }
 
 #main>h1::before { content: "dead doesn't mean gone"; font-size: .875rem!important; font-style: italic }  */
 
-.box {background: rgba(0,0,0, 0.8);border: 0px solid black;margin: auto;float: center;height: 200px;width: 100%;padding: 2px;overflow: scroll; text-align: center;}
 
 
 
