@@ -69,6 +69,18 @@ a img.border-bottom, img.rounded-bottom { border: 1px solid #333!important; box-
          margin-bottom: -100px !important;
          margin-top: 100px; opacity:0.6}
 
+#main>h1 {
+        opacity: 0.2;
+        transition: .5s;
+  background:none;
+        
+}
+
+#main>h1 {
+  opacity: 1;
+transition: .5s;
+}
+
 
 /* BONESTREWN CONTENT */
 .skeletal { margin-bottom:-350px; opacity: 0.5; }
