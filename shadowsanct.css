@@ -78,7 +78,7 @@ pre b { font-variant: small-caps; font-size: 1.2em; }
 /* BODY (CURSOR, FONT, BACKGROUND) */
 body { cursor: text;
       color: #999; 
-      font-family: georgia; 
+     
       font-size: 11px;
       background-image: url('https://i.imgur.com/l1vYqH7.png'); 
       background-color: #000; 
