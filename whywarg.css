@@ -49,7 +49,8 @@ a img.border-bottom, img.rounded-bottom { border: 1px solid #333!important; box-
 
 /* BONESTREWN CONTENT */
 .skulls { opacity: 0.4; }
-.runes {color: white; opacity: 0.4; text-align:center;font-size:50px; margin-bottom: -50px;}
+.runes {color: white; opacity: 0.4; text-align:center;font-size:50px; margin-bottom: -50px; 
+          -webkit-text-stroke: 1px rgba(179,43,43,0.5);}
 .pack { color: white; 
           text-align: center!important; 
           font-size: 100px!important; 
