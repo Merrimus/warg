@@ -133,9 +133,6 @@ h3.mb-0 { : 10px; text-align: right; font-style: italic; background: #eee1; font
 
 /* CONTENT (BACKGROUND COLOR, BORDERS, DEN UPDATE BAR, DEN PAGE EDITOR) */  
 #main { background: rgba(0,0,4,0.5);
-       padding-left: 60px;
-       padding-right: 60px;
-       padding-bottom: 60px;
        border: 0px solid #eee3 }
 
 .card.mb-3, .featured-wolf img { border: 0px solid #eee3; }
