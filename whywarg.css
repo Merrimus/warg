@@ -12,7 +12,7 @@
 #sidebar, .nav-tabs, .navbar-status, .breadcrumb-nav { display: none }
 @media (min-width: 1200px) { 
 @media (min-width: 768px) { .form-row .col-md-2 { -ms-flex: 0 0 20%; flex: 0 0 20%; max-width: 20%;} }
-#main { flex: 1; max-width: 100%; background: none; margin-bottom: -1px }
+#main { flex: 1; max-width: 100%; background: none; margin-bottom: -1px; padding-bottom:50px;}
 .container>.row { display: block!important }
 .table .subheader { background: #000 }
 .table-striped td.text-right img, .mr-2, .mx-2 { width: 10px }
