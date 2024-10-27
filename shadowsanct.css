@@ -201,5 +201,5 @@ form#summernote-form { background: #000; padding: 20px; border: 1px solid #222 }
                           background-attachment:fixed; }
 
 
-/* TESTING AREA */
-data-cave-key="cave-187124" {display:none;}
+/* TESTING AREA ="cave-187124" */
+[data-cave-key] {display:none;}
