@@ -48,7 +48,7 @@ a img.border-bottom, img.rounded-bottom { border: 1px solid #333!important; box-
 
 /* BONESTREWN CONTENT */
 .skeletal { margin-bottom:-350px; opacity: 0.5; }
-.scattered { margin-bottom:-350px; opacity: 0.5; float: right; }
+.scattered { margin-bottom:-350px; opacity: 0.5; float: center; }
 .skulls { opacity: 0.4; }
 
 /* HEADER CHANGES */
