@@ -106,7 +106,7 @@ th.pt-1.pb-1::before { content: "The Lich "; font-size: 40px!important }
 
 /* WOLF CARDS */  
 .table-striped tbody tr:nth-of-type(odd), .form-control { background-color: transparent }
-td.left.b { vertical-align: middle; display:none; }
+td.left.b { vertical-align: middle; }
            
 img { filter: grayscale(1); }
 a img { filter:grayscale(1); transition: 1s }
