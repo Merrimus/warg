@@ -42,7 +42,7 @@ a img.border-bottom, img.rounded-bottom { border: 1px solid #333!important; box-
           text-align: center!important; 
           font-size: 80px!important; 
           line-height: 1;
-          -webkit-text-stroke: 1px rgba(179,43,43,0.5);
+          -webkit-text-stroke: 1px rgba(145,43,179,0.8);
           margin-bottom: -100px !important;
           margin-top:50px;
           opacity:0.8 }
@@ -50,12 +50,12 @@ a img.border-bottom, img.rounded-bottom { border: 1px solid #333!important; box-
 /* BONESTREWN CONTENT */
 .skulls { opacity: 0.4; }
 .runes {color: white; opacity: 0.4; text-align:center;font-size:50px; margin-bottom: -50px; 
-          -webkit-text-stroke: 1px rgba(179,43,43,0.5);}
+          -webkit-text-stroke: 1px rgba(145,43,179,0.8);
 .pack { color: white; 
           text-align: center!important; 
           font-size: 100px!important; 
           line-height: 1;
-          -webkit-text-stroke: 1px rgba(179,43,43,0.5);
+          -webkit-text-stroke: 1px rgba(145,43,179,0.8);
           opacity:0.6;
           font-family: 'East Sea Dokdo' }
   .pack a:hover { color:#912bb3; text-decoration:none!important;}
