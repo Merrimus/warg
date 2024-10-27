@@ -190,3 +190,5 @@ form#summernote-form { background: #000; padding: 20px; border: 1px solid #222 }
 .table { display: none; }
 .row { display: none; }
  */
+
+@media   .justify-content-md-center {background:red;}
