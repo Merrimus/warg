@@ -54,8 +54,8 @@ a img.border-bottom, img.rounded-bottom { border: 1px solid #333!important; box-
           font-size: 100px!important; 
           line-height: 1;
           -webkit-text-stroke: 1px rgba(179,43,43,0.5);
-          margin-bottom: 150px !important;
           opacity:0.8;
+          padding-bottom:50px;
           font-family: 'East Sea Dokdo' }
   .pack a:hover { color:#b32b2b; text-decoration:none!important;}
 
