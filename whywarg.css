@@ -132,7 +132,7 @@ form .table.table-striped tbody tr td div>div a:before { content: "ᛉ"; color: 
 h3.mb-0 { : 10px; text-align: right; font-style: italic; background: #eee1; font-size: 2rem }
 
 /* CONTENT (BACKGROUND COLOR, BORDERS, DEN UPDATE BAR, DEN PAGE EDITOR) */  
-#main { background: rgba(0,0,4,0.5);
+#main { background: none;
        border: 0px solid #eee3 }
 
 .card.mb-3, .featured-wolf img { border: 0px solid #eee3; }
