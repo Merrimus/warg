@@ -56,7 +56,7 @@ a img.border-bottom, img.rounded-bottom { border: 1px solid #333!important; box-
           margin-bottom: 50px !important;
           opacity:0.8;
           font-family: 'East Sea Dokdo' }
-  .pack a:hover { color:red; text-decoration:none!important;}
+  .pack a:hover { color:#b32b2b; text-decoration:none!important;}
 
 /* HEADER CHANGES */
 #header .navbar-main .nav-link { font-size: 9px; letter-spacing: 1px; margin-right: 15px }
