@@ -76,7 +76,7 @@ pre b { font-variant: small-caps; font-size: 1.2em; text-transform: lowercase;}
 #header .navbar-main .nav-link .fa { color: inherit }
            
 /* BODY (CURSOR, FONT, BACKGROUND) */
-body { cursor: text;
+body { cursor: url('https://i.ibb.co/k6x81m0d/phantomorchid.png'), text;
       color: #999; 
       font-size: 11px;
       background-image: url('https://i.imgur.com/l1vYqH7.png'); 
