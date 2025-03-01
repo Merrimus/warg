@@ -201,7 +201,7 @@ form#summernote-form { background: #000; padding: 20px; border: 1px solid #222 }
                           background-attachment:fixed; }
 
 /* HIDDEN CAVE */
-[data-cave-key="cave-187124"] {display:none;}
+/* [data-cave-key="cave-187124"] {display:none;} */
 [data-cave-key="cave-0"] {display:none;}
 [data-cave-key="cave-176761"] {display:none;}
 
