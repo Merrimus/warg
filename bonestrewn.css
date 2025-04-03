@@ -197,19 +197,18 @@ form#summernote-form { background: #000; padding: 20px; border: 1px solid #222 }
                           background: #b32b2b; 
                           background-blend-mode: darken; 
                           background-attachment:fixed; }
-
-/* HIDDEN CAVE */
-[data-cave-key="cave-0"] {display:none;}
-/* [data-cave-key="cave-186737"] {display:none;} */
-
-
 /* ADDITIONAL AREA */
-
 .lich {background-image: url('https://images2.imgbox.com/7a/41/mvmBEhMr_o.jpg'); background-attachment:fixed; padding:50px; color:white; text-align:center;}
 .test {font-size:50px;}
 .remains { margin-bottom:-130px; margin-top:-140px; opacity: 0.5; }
 h3 {display:none;}
 .mx-2 {display:none;}
+
+/* HIDDEN CAVE */
+[data-cave-key="cave-0"] {display:none;}
+/* [data-cave-key="cave-186737"] {display:none;} */
+
+/* TESTING AREA */
 
 
 
