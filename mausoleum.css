@@ -48,10 +48,12 @@ pre { font-size: 0.7rem;
   text-wrap: wrap;
   opacity: 0.9;}
 
-pre a:link { color: #0a232e; filter: drop-shadow(0 0 0.1rem black); }
-pre a:visited { color: #0a232e; filter: drop-shadow(0 0 0.1rem black); }
-pre a:hover { color: #0a232e; filter: drop-shadow(0 0 0.1rem black); }
-pre a:active { color: #0a232e; filter: drop-shadow(0 0 0.1rem black); }
+pre a:link { color: #0a232e; }
+pre a:visited { color: #0a232e; }
+pre a:hover { color: #0a232e; }
+pre a:active { color: #0a232e; }
+
+a:any-link {filter: drop-shadow(0 0 0.2rem black);}
 
 pre b { font-variant: small-caps; font-size: 1.2em; text-transform: lowercase;}
 
