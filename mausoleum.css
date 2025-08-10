@@ -48,10 +48,10 @@ pre { font-size: 0.7rem;
   text-wrap: wrap;
   opacity: 0.9;}
 
-pre a:link { color: #0a232e; }
-pre a:visited { color: #0a232e; }
-pre a:hover { color: #0a232e; }
-pre a:active { color: #0a232e; }
+pre a:link { color: #0a232e; filter: drop-shadow(0 0 0.1rem black); }
+pre a:visited { color: #0a232e; filter: drop-shadow(0 0 0.1rem black); }
+pre a:hover { color: #0a232e; filter: drop-shadow(0 0 0.1rem black); }
+pre a:active { color: #0a232e; filter: drop-shadow(0 0 0.1rem black); }
 
 pre b { font-variant: small-caps; font-size: 1.2em; text-transform: lowercase;}
 
@@ -86,7 +86,7 @@ body { cursor: url('https://i.ibb.co/k6x81m0d/phantomorchid.png'), text;
       background-position: 50% 50% }
 
 /* LINKS */
-a, .table th a, .alert-info .alert-link, .alert-success .alert-link { color: #fff; transition: .5s; filter: drop-shadow(0 0 0.1rem black); }
+a, .table th a, .alert-info .alert-link, .alert-success .alert-link { color: #fff; transition: .5s; }
 a:hover, #footer nav .nav-item .nav-link:hover, #header .navbar-main .active .nav-link, #header .navbar-main .active .nav-link .fa, #header .navbar-main .nav-link:hover, #header .navbar-main .nav-link:hover .fa { text-decoration: line-through; color: #fff; { color: inherit;} } 
 
 /* LEAD TITLE, FEATURED WOLF DISPLAY */   
