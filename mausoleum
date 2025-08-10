@@ -1,0 +1,212 @@
+/* This is for ∂αιѕуcнαιиє∂. Use this without permission and I will bite you. -𝖜𝖆𝖗𝖌 */
+
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,500;1,400&display=swap');
+
+/* DON'T TOUCH */
+#footer { background: none; font-size: 80%; padding-top: 20px; }
+#uimid { display: none!important }
+#header .navbar-main { background: none!important }
+#sidebar, .nav-tabs, .navbar-status, .breadcrumb-nav { display: none }
+@media (min-width: 1200px) { 
+@media (min-width: 768px) { .form-row .col-md-2 { -ms-flex: 0 0 20%; flex: 0 0 20%; max-width: 20%;} }
+#main { flex: 1; max-width: 100%; background: none; margin-bottom: -1px }
+.container>.row { display: block!important }
+.table .subheader { background: #000 }
+.table-striped td.text-right img, .mr-2, .mx-2 { width: 10px }
+br, #footer { display: none }
+.user-tag, .float-left.mr-2 { border: 0px solid #eee3 }
+td.b { width: 35% }
+td.left { background: #FF0000!important; font-size: 80%; font-weight: 100; text-align: right; letter-spacing: 1px; text-transform: uppercase }
+td.row { margin: 0!important }
+td.right.text-right { text-align: center!important; vertical-align: middle!important; border-left: 1px solid #222 }
+.note-editor { filter: invert(1) }
+#footer ul, select { background: none!important }
+div.col-xl-6.col-sm-12.order-xl-9.order-12, .featured-wolf, .col-xl-3.col-sm-7.text-center { align-self: center }
+.table-striped td.text-right img { margin: 0 5px }
+h3.mb-0 i { vertical-align: middle; display: inline; font-size: 50%; margin-right: 10px; filter: opacity(.2) }
+img.float-left.mr-2 { background: none; border-radius: 0; padding: 0; }
+.navbar-nav { padding-top: 0 }
+a img.border-bottom, img.rounded-bottom { border: 1px solid #333!important; box-sizing: border-box; display: block }   
+.p-0 { padding: 1em!important; min-width: 9em; }
+.bg-light, .btn-light { background: #0f0f0f!important; color: inherit; }
+.card.bg-transparent.mb-0 { height: auto!important }
+.bg-dark, .bg-light { background-color: transparent!important; }
+#main .card {background:none;}
+  
+  /* LORE BOX FORMATTING */
+pre { font-size: 0.7rem;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top:0px;
+  margin-bottom: 50px;
+  max-width:100%;
+  height: 200px;
+  color: white;
+  text-wrap: wrap;
+  opacity: 0.9;}
+
+pre a:link { color: #912bb3; }
+pre a:visited { color: #912bb3; }
+pre a:hover { color: #912bb3; }
+pre a:active { color: #912bb3; }
+
+pre b { font-variant: small-caps; font-size: 1.2em; text-transform: lowercase;}
+
+/* PACK TITLE */
+#main>h1 { color: white; 
+          text-align: center!important; 
+          font-size: 100px!important; 
+          line-height: 1;
+          -webkit-text-stroke: 1px rgba(145,43,179,0.8);
+          margin-bottom: -100px !important;
+          opacity:0.8 }
+
+/* BONESTREWN CONTENT */
+.fairycircle { margin-bottom:-350px; opacity: 0.5; }
+.scattered { margin-bottom:-350px; opacity: 0.5; float: right; }
+.skulls { opacity: 0.4; }
+
+/* HEADER CHANGES */
+#header .navbar-main .nav-link { font-size: 9px; letter-spacing: 1px; margin-right: 15px }
+#header .navbar-main { min-height: 115px; background: none } }
+.nav-item i { vertical-align: middle; display: inline }
+#header .navbar-main .nav-link .fa { color: inherit }
+           
+/* BODY (CURSOR, FONT, BACKGROUND) */
+body { cursor: url('https://i.ibb.co/k6x81m0d/phantomorchid.png'), text;
+      color: #999; 
+      font-size: 11px;
+      background-image: url('https://i.imgur.com/l1vYqH7.png'); 
+      background-color: #000; 
+      background-attachment: fixed; 
+      background-size: cover; 
+      background-position: 50% 50% }
+
+/* LINKS */
+a, .table th a, .alert-info .alert-link, .alert-success .alert-link { color: #fff; transition: .5s }
+a:hover, #footer nav .nav-item .nav-link:hover, #header .navbar-main .active .nav-link, #header .navbar-main .active .nav-link .fa, #header .navbar-main .nav-link:hover, #header .navbar-main .nav-link:hover .fa { text-decoration: line-through; color: #fff } 
+
+/* LEAD TITLE, FEATURED WOLF DISPLAY */   
+.pt-1.pb-1, .featured-wolf b { line-height: 1; font-size: 0!important } .pt-1.pb-1 a { font-size: 50px!important; text-decoration:strikethrough!important; }
+th.pt-1.pb-1::before { content: "The Interpreter "; font-size: 30px!important }
+.featured-wolf { font-size: 0!important }
+.featured-wolf::before { content: "we are shadows without light"; font-size: .875rem!important; font-style: italic; font-family: Times New Roman;}
+
+/* LEAD WOLF (TITLE BACKGROUND, STATUS EFFECTS) */  
+
+.form-row .card, td.right.text-right, .pb-1, .py-1 {
+    background-image: url(https://i.imgur.com/l1vYqH7.png)!important;
+    background-size: cover!important; background-position: 50% 50%!important;
+    background-color: #912bb3;
+    background-attachment:fixed;
+    background-blend-mode: darken; }
+
+/* PACK INFORMATION */
+.form-row .card-header b { text-transform: uppercase; 
+                          letter-spacing: 1px; 
+                          font-size: 80%; 
+                          font-weight: 100;                      
+                          bottom: 0;
+                          right: 0;
+                          background: rgba(0,0,0,0.5);
+                          border-top-left-radius: 5px;
+                          color: #fff;
+                          width: 100%;
+                          position: absolute;
+                          background-image: url(https://i.imgur.com/l1vYqH7.png)!important; 
+                          background: #912bb3; 
+                          background-blend-mode: darken; 
+                          background-attachment:fixed; }
+
+/* WOLF CARDS */  
+.table-striped tbody tr:nth-of-type(odd), .form-control { background-color: transparent }
+td.left.b { vertical-align: middle }
+           
+img { filter: grayscale(1); }
+a img { filter:grayscale(1); transition: 1s }
+.card a:hover img, .featured-wolf a:hover img, a img:hover { filter: grayscale(0)!important } 
+
+form .table.table-striped tbody tr td div>div a:before { content: "ᛉ"; color: #999; margin: 0 5px; width: 10px; display: inline-block; font-size: 100%;  }
+
+.form-row .card, .pb-1, .py-1 { background-attachment: fixed!important }
+.form-row .card { border: 1px solid #1d1d1d!important }
+.pb-1, .py-1 { : 20px!important }
+.form-row .card-img-top { display: none }
+
+.card.text-center { border: 0!important; background: none!important }
+.subheader { display: none }
+h3.mb-0 { : 10px; text-align: right; font-style: italic; background: #eee1; font-size: 2rem }
+
+/* CONTENT (BACKGROUND COLOR, BORDERS, DEN UPDATE BAR, DEN PAGE EDITOR) */  
+#main { background: #000000c4;
+       padding-left: 60px;
+       padding-right: 60px;
+       padding-bottom: 60px;
+       border: 0px solid #eee3 }
+
+.card.mb-3, .featured-wolf img { border: 0px solid #eee3; }
+tr { border-top: 1px solid #2f2f2f }
+
+.table .bottom, .table tfoot td { color: inherit; background: #111!important }
+.note-editor { filter: invert(1) }
+
+/* DEN TITLES */  
+th.top { padding: 20px 25px; 
+        background-image: url(https://i.imgur.com/l1vYqH7.png)!important;
+        font-size: 30px; 
+        font-variant: small-caps;
+        text-transform: lowercase;
+        font-family: 'Times New Roman'; 
+        line-height: 1; 
+        background: #912bb3; 
+        background-blend-mode: darken; 
+        background-attachment:fixed;
+        text-shadow: 0 0 10px #000000c7; }
+
+/* ICONS */  
+.fas { color: #999; font-size: 10px; }
+
+/* FONTS */  
+th, .table a, #footer nav .nav-item .nav-link { font-weight: 100 }
+h1, h2, h3, h4, h5, h6, th.pt-1.pb-1 { font-family: 'Times New Roman';font-variant: small-caps; }
+.small, small { font-size: 9px; text-transform: uppercase; letter-spacing: 1px }
+td.b { text-align: right; font-weight: 100; text-transform: uppercase; font-weight: bold; font-size: 9px; letter-spacing: 1px }
+.form-control, .btn { font-size: inherit!important }
+
+/* ALERTS */  
+#summernote-form, .alert { background: none; border: 0; border-bottom: 0px solid #eee3; color: inherit; padding: 0 5px 5px;}
+.text-danger { color: inherit!important }
+.form-control { border: 0; color: #fff!important }
+.btn-success, .btn-warning { border-bottom-color: #eee3; color: #fff!important; background-color: #3d2424; color: #fff }
+.btn-success:hover, .btn-warning:hover { background: #856c6c; border-bottom-color: #eee3; }
+.progress { height: 6px!important; background: #ddd0!important; outline: 1px solid #eee3; margin: 2px; outline-offset: -1px }
+.bg-warning, .bg-primary, .bg-danger, .bg-info, .bg-success { background-color: #eee3!important }
+select { background: #000 }
+table.table.table-striped td { vertical-align: middle; }
+form#summernote-form { background: #000; padding: 20px; border: 1px solid #222 }
+.note-popover .popover-content, .note-toolbar { padding: 0 0 5px }
+.alert {text-align:right;} 
+           
+/* Snowflake Animation - Original code by codeconvey@CodePen */
+.snowflake { color: #fff; font-size: 1em; font-family: Arial; text-shadow: 0 0 1px #000;}
+@-webkit-keyframes snowflakes-fall{0%{top:-10%}100%{top:100%}}@-webkit-keyframes snowflakes-shake{0%{-webkit-transform:translateX(0px);transform:translateX(0px)}50%{-webkit-transform:translateX(80px);transform:translateX(80px)}100%{-webkit-transform:translateX(0px);transform:translateX(0px)}}@keyframes snowflakes-fall{0%{top:-10%}100%{top:100%}}@keyframes snowflakes-shake{0%{transform:translateX(0px)}50%{transform:translateX(80px)}100%{transform:translateX(0px)}}.snowflake{position:fixed;top:-10%;z-index:9999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;cursor:default;-webkit-animation-name:snowflakes-fall,snowflakes-shake;-webkit-animation-duration:10s,3s;-webkit-animation-timing-function:linear,ease-in-out;-webkit-animation-iteration-count:infinite,infinite;-webkit-animation-play-state:running,running;animation-name:snowflakes-fall,snowflakes-shake;animation-duration:10s,3s;animation-timing-function:linear,ease-in-out;animation-iteration-count:infinite,infinite;animation-play-state:running,running}.snowflake:nth-of-type(0){left:1%;-webkit-animation-delay:0s,0s;animation-delay:0s,0s}.snowflake:nth-of-type(1){left:10%;-webkit-animation-delay:1s,1s;animation-delay:1s,1s}.snowflake:nth-of-type(2){left:20%;-webkit-animation-delay:6s,.5s;animation-delay:6s,.5s}.snowflake:nth-of-type(3){left:30%;-webkit-animation-delay:4s,2s;animation-delay:4s,2s}.snowflake:nth-of-type(4){left:40%;-webkit-animation-delay:2s,2s;animation-delay:2s,2s}.snowflake:nth-of-type(5){left:50%;-webkit-animation-delay:8s,3s;animation-delay:8s,3s}.snowflake:nth-of-type(6){left:60%;-webkit-animation-delay:6s,2s;animation-delay:6s,2s}.snowflake:nth-of-type(7){left:70%;-webkit-animation-delay:2.5s,1s;animation-delay:2.5s,1s}.snowflake:nth-of-type(8){left:80%;-webkit-animation-delay:1s,0s;animation-delay:1s,0s}.snowflake:nth-of-type(9){left:90%;-webkit-animation-delay:3s,1.5s;animation-delay:3s,1.5s}
+
+/* TITLE CARDS */
+.table th {   background-image: url(https://i.imgur.com/l1vYqH7.png)!important; 
+                          background: #912bb3; 
+                          background-blend-mode: darken; 
+                          background-attachment:fixed; }
+/* ADDITIONAL AREA */
+h3 {display:none;}
+.mx-2 {display:none;}
+
+/* HIDDEN CAVE */
+/* [data-cave-key="cave-187124"] {display:none;} */
+[data-cave-key="cave-0"] {display:none;}
+[data-cave-key="cave-176761"] {display:none;}
+
+/* TESTING AREA */
+
