@@ -73,7 +73,7 @@ pre b { font-variant: small-caps; font-size: 1.2em; text-transform: lowercase;}
 #header .navbar-main .nav-link { font-size: 9px; letter-spacing: 1px; margin-right: 15px }
 #header .navbar-main { min-height: 115px; background: none } }
 .nav-item i { vertical-align: middle; display: inline }
-#header .navbar-main .nav-link .fa { color: inherit }
+#header .navbar-main .nav-link .fa { color: inherit; filter: drop-shadow(0 0 0.1rem black);}
            
 /* BODY (CURSOR, FONT, BACKGROUND) */
 body { cursor: url('https://i.ibb.co/k6x81m0d/phantomorchid.png'), text;
