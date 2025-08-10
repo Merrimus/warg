@@ -78,7 +78,7 @@ pre b { font-variant: small-caps; font-size: 1.2em; text-transform: lowercase;}
 #header .navbar-main .nav-link .fa { color: inherit; filter: drop-shadow(0 0 0.1rem black);}
            
 /* BODY (CURSOR, FONT, BACKGROUND) */
-body { cursor: url('https://i.ibb.co/k6x81m0d/phantomorchid.png'), text;
+body { cursor: url('https://static.wolvden.com/images/items/trophies/antler_broken.png'), text;
       color: #999; 
       font-size: 11px;
       background-image: url('https://i.ibb.co/6Jm7f2KR/jill-dimond-d53-Bt-UWni-BY-unsplash.jpg'); 
