@@ -48,10 +48,10 @@ pre { font-size: 0.7rem;
   text-wrap: wrap;
   opacity: 0.9;}
 
-pre a:link { color: #912bb3; }
-pre a:visited { color: #912bb3; }
-pre a:hover { color: #912bb3; }
-pre a:active { color: #912bb3; }
+pre a:link { color: #0a232e; }
+pre a:visited { color: #0a232e; }
+pre a:hover { color: #0a232e; }
+pre a:active { color: #0a232e; }
 
 pre b { font-variant: small-caps; font-size: 1.2em; text-transform: lowercase;}
 
