@@ -113,8 +113,6 @@ th.pt-1.pb-1::before { content: "Gravedigger"; font-size: 40px!important }
                           width: 100%;
                           position: absolute;
                           background-image: url('https://i.ibb.co/xtxmppFD/brandon-griggs-Nt-FIy-WOf9g-M-unsplash-2.jpg')!important; 
-                          background: #bb523c; 
-                          background-blend-mode: darken; 
                           background-attachment:fixed; }
 
 /* WOLF CARDS */  
@@ -188,8 +186,6 @@ form#summernote-form { background: #000; padding: 20px; border: 1px solid #222 }
 
 /* TITLE CARDS */
 .table th {   background-image: url('https://i.ibb.co/xtxmppFD/brandon-griggs-Nt-FIy-WOf9g-M-unsplash-2.jpg')!important; 
-                          background: #bb523c; 
-                          background-blend-mode: darken; 
                           background-attachment:fixed; }
 /* ADDITIONAL AREA */
 .lich {background-image: url('https://images2.imgbox.com/7a/41/mvmBEhMr_o.jpg'); background-attachment:fixed; padding:50px; color:white; text-align:center;}
