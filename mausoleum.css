@@ -98,9 +98,7 @@ th.pt-1.pb-1::before { content: "Gravedigger"; font-size: 40px!important }
 .form-row .card, td.right.text-right, .pb-1, .py-1 {
     background-image: url('https://i.ibb.co/xtxmppFD/brandon-griggs-Nt-FIy-WOf9g-M-unsplash-2.jpg')!important;
     background-size: cover!important; background-position: 50% 50%!important;
-    background: #bb523c;
-    background-attachment:fixed;
-    background-blend-mode: darken; }
+    background-attachment:fixed;}
 
 /* PACK INFORMATION */
 .form-row .card-header b { text-transform: uppercase; 
@@ -157,8 +155,6 @@ th.top { padding: 20px 25px;
         font-size: 35px; 
         font-family: 'East Sea Dokdo', cursive; 
         line-height: 1; 
-        background: #bb523c; 
-        background-blend-mode: darken; 
         background-attachment:fixed;
         text-shadow: 0 0 10px #000000c7; }
 
