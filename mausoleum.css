@@ -1,5 +1,4 @@
 /* This is for ∂αιѕуcнαιиє∂. Use this without permission and I will bite you. -𝖜𝖆𝖗𝖌 */
-
 /* FONTS */
 @import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap');
@@ -19,7 +18,6 @@
 br, #footer { display: none }
 .user-tag, .float-left.mr-2 { border: 0px solid #eee3 }
 td.b { width: 35% }
-td.left { background: #FF0000!important; font-size: 80%; font-weight: 100; text-align: right; letter-spacing: 1px; text-transform: uppercase }
 td.row { margin: 0!important }
 td.right.text-right { text-align: center!important; vertical-align: middle!important; border-left: 1px solid #222 }
 .note-editor { filter: invert(1) }
@@ -48,26 +46,24 @@ pre { font-size: 0.7rem;
   text-wrap: wrap;
   opacity: 0.9;}
 
-pre a:link { color: #0a232e; }
-pre a:visited { color: #0a232e; }
-pre a:hover { color: #0a232e; }
-pre a:active { color: #0a232e; }
+pre a:link { color: #b32b2b; }
+pre a:visited { color: #b32b2b; }
+pre a:hover { color: #b32b2b; }
+pre a:active { color: #b32b2b; }
 
-a:any-link {filter: drop-shadow(0 0 0.2rem black);}
-
-pre b { font-variant: small-caps; font-size: 1.2em; text-transform: lowercase;}
+pre b { font-variant: small-caps; font-size: 1.2em; }
 
 /* PACK TITLE */
 #main>h1 { color: white; 
           text-align: center!important; 
           font-size: 100px!important; 
           line-height: 1;
-          -webkit-text-stroke: 1px rgba(10, 35, 46,0.8);
+          -webkit-text-stroke: 1px rgba(179,43,43,0.5);
           margin-bottom: -100px !important;
           opacity:0.8 }
 
 /* BONESTREWN CONTENT */
-.fairycircle { margin-bottom:-350px; opacity: 0.5; }
+.skeletal { margin-bottom:-350px; opacity: 0.5; }
 .scattered { margin-bottom:-350px; opacity: 0.5; float: right; }
 .skulls { opacity: 0.4; }
 
@@ -75,34 +71,35 @@ pre b { font-variant: small-caps; font-size: 1.2em; text-transform: lowercase;}
 #header .navbar-main .nav-link { font-size: 9px; letter-spacing: 1px; margin-right: 15px }
 #header .navbar-main { min-height: 115px; background: none } }
 .nav-item i { vertical-align: middle; display: inline }
-#header .navbar-main .nav-link .fa { color: inherit; filter: drop-shadow(0 0 0.1rem black);}
+#header .navbar-main .nav-link .fa { color: inherit }
            
 /* BODY (CURSOR, FONT, BACKGROUND) */
-body { cursor: url('https://i.ibb.co/nNp6HVvb/antler-broken-1.png'), text;
+body { cursor: url('https://i.ibb.co/Qjb6sbyp/bone.png'), text;
       color: #999; 
+      font-family: georgia; 
       font-size: 11px;
-      background-image: url('https://i.ibb.co/6Jm7f2KR/jill-dimond-d53-Bt-UWni-BY-unsplash.jpg'); 
+      background-image: url('https://images2.imgbox.com/7a/41/mvmBEhMr_o.jpg'); 
       background-color: #000; 
       background-attachment: fixed; 
       background-size: cover; 
       background-position: 50% 50% }
 
 /* LINKS */
-a, .table th a, .alert-info .alert-link, .alert-success .alert-link { color: #fff; transition: .5s; }
-a:hover, #footer nav .nav-item .nav-link:hover, #header .navbar-main .active .nav-link, #header .navbar-main .active .nav-link .fa, #header .navbar-main .nav-link:hover, #header .navbar-main .nav-link:hover .fa { text-decoration: line-through; color: #fff; { color: inherit;} } 
+a, .table th a, .alert-info .alert-link, .alert-success .alert-link { color: #fff; transition: .5s }
+a:hover, #footer nav .nav-item .nav-link:hover, #header .navbar-main .active .nav-link, #header .navbar-main .active .nav-link .fa, #header .navbar-main .nav-link:hover, #header .navbar-main .nav-link:hover .fa { text-decoration: line-through; color: #fff } 
 
 /* LEAD TITLE, FEATURED WOLF DISPLAY */   
 .pt-1.pb-1, .featured-wolf b { line-height: 1; font-size: 0!important } .pt-1.pb-1 a { font-size: 50px!important; text-decoration:strikethrough!important; }
-th.pt-1.pb-1::before { content: "Gravedigger"; font-size: 30px!important }
+th.pt-1.pb-1::before { content: "The Fates "; font-size: 40px!important }
 .featured-wolf { font-size: 0!important }
-.featured-wolf::before { content: "we are souls without form"; font-size: .875rem!important; font-style: italic; font-family: Times New Roman;}
+.featured-wolf::before { content: "dead doesn't mean gone"; font-size: .875rem!important; font-style: italic }
 
 /* LEAD WOLF (TITLE BACKGROUND, STATUS EFFECTS) */  
 
 .form-row .card, td.right.text-right, .pb-1, .py-1 {
-    background-image: url(https://i.ibb.co/6Jm7f2KR/jill-dimond-d53-Bt-UWni-BY-unsplash.jpg)!important;
+    background-image: url(https://images2.imgbox.com/7a/41/mvmBEhMr_o.jpg)!important;
     background-size: cover!important; background-position: 50% 50%!important;
-    background-color: #0a232e;
+    background: #b32b2b;
     background-attachment:fixed;
     background-blend-mode: darken; }
 
@@ -118,8 +115,8 @@ th.pt-1.pb-1::before { content: "Gravedigger"; font-size: 30px!important }
                           color: #fff;
                           width: 100%;
                           position: absolute;
-                          background-image: url(https://i.ibb.co/6Jm7f2KR/jill-dimond-d53-Bt-UWni-BY-unsplash.jpg)!important; 
-                          background: #0a232e; 
+                          background-image: url(https://images2.imgbox.com/7a/41/mvmBEhMr_o.jpg)!important; 
+                          background: #b32b2b; 
                           background-blend-mode: darken; 
                           background-attachment:fixed; }
 
@@ -157,13 +154,11 @@ tr { border-top: 1px solid #2f2f2f }
 
 /* DEN TITLES */  
 th.top { padding: 20px 25px; 
-        background-image: url(https://i.imgur.com/l1vYqH7.png)!important;
-        font-size: 30px; 
-        font-variant: small-caps;
-        text-transform: lowercase;
-        font-family: 'Times New Roman'; 
+        background-image: url(https://images2.imgbox.com/7a/41/mvmBEhMr_o.jpg)!important;
+        font-size: 35px; 
+        font-family: 'East Sea Dokdo', cursive; 
         line-height: 1; 
-        background: #0a232e; 
+        background: #b32b2b; 
         background-blend-mode: darken; 
         background-attachment:fixed;
         text-shadow: 0 0 10px #000000c7; }
@@ -173,7 +168,7 @@ th.top { padding: 20px 25px;
 
 /* FONTS */  
 th, .table a, #footer nav .nav-item .nav-link { font-weight: 100 }
-h1, h2, h3, h4, h5, h6, th.pt-1.pb-1 { font-family: 'Times New Roman';font-variant: small-caps; }
+h1, h2, h3, h4, h5, h6, th.pt-1.pb-1 { font-family: 'East Sea Dokdo', cursive; }
 .small, small { font-size: 9px; text-transform: uppercase; letter-spacing: 1px }
 td.b { text-align: right; font-weight: 100; text-transform: uppercase; font-weight: bold; font-size: 9px; letter-spacing: 1px }
 .form-control, .btn { font-size: inherit!important }
@@ -197,18 +192,16 @@ form#summernote-form { background: #000; padding: 20px; border: 1px solid #222 }
 @-webkit-keyframes snowflakes-fall{0%{top:-10%}100%{top:100%}}@-webkit-keyframes snowflakes-shake{0%{-webkit-transform:translateX(0px);transform:translateX(0px)}50%{-webkit-transform:translateX(80px);transform:translateX(80px)}100%{-webkit-transform:translateX(0px);transform:translateX(0px)}}@keyframes snowflakes-fall{0%{top:-10%}100%{top:100%}}@keyframes snowflakes-shake{0%{transform:translateX(0px)}50%{transform:translateX(80px)}100%{transform:translateX(0px)}}.snowflake{position:fixed;top:-10%;z-index:9999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;cursor:default;-webkit-animation-name:snowflakes-fall,snowflakes-shake;-webkit-animation-duration:10s,3s;-webkit-animation-timing-function:linear,ease-in-out;-webkit-animation-iteration-count:infinite,infinite;-webkit-animation-play-state:running,running;animation-name:snowflakes-fall,snowflakes-shake;animation-duration:10s,3s;animation-timing-function:linear,ease-in-out;animation-iteration-count:infinite,infinite;animation-play-state:running,running}.snowflake:nth-of-type(0){left:1%;-webkit-animation-delay:0s,0s;animation-delay:0s,0s}.snowflake:nth-of-type(1){left:10%;-webkit-animation-delay:1s,1s;animation-delay:1s,1s}.snowflake:nth-of-type(2){left:20%;-webkit-animation-delay:6s,.5s;animation-delay:6s,.5s}.snowflake:nth-of-type(3){left:30%;-webkit-animation-delay:4s,2s;animation-delay:4s,2s}.snowflake:nth-of-type(4){left:40%;-webkit-animation-delay:2s,2s;animation-delay:2s,2s}.snowflake:nth-of-type(5){left:50%;-webkit-animation-delay:8s,3s;animation-delay:8s,3s}.snowflake:nth-of-type(6){left:60%;-webkit-animation-delay:6s,2s;animation-delay:6s,2s}.snowflake:nth-of-type(7){left:70%;-webkit-animation-delay:2.5s,1s;animation-delay:2.5s,1s}.snowflake:nth-of-type(8){left:80%;-webkit-animation-delay:1s,0s;animation-delay:1s,0s}.snowflake:nth-of-type(9){left:90%;-webkit-animation-delay:3s,1.5s;animation-delay:3s,1.5s}
 
 /* TITLE CARDS */
-.table th {   background-image: url(https://i.imgur.com/l1vYqH7.png)!important; 
-                          background: #0a232e; 
+.table th {   background-image: url(https://images2.imgbox.com/7a/41/mvmBEhMr_o.jpg)!important; 
+                          background: #b32b2b; 
                           background-blend-mode: darken; 
                           background-attachment:fixed; }
 /* ADDITIONAL AREA */
+.lich {background-image: url('https://images2.imgbox.com/7a/41/mvmBEhMr_o.jpg'); background-attachment:fixed; padding:50px; color:white; text-align:center;}
+.test {font-size:50px;}
+.remains { margin-bottom:-130px; margin-top:-140px; opacity: 0.5; }
 h3 {display:none;}
 .mx-2 {display:none;}
-
-/* HIDDEN CAVE */
-/* [data-cave-key="cave-187124"] {display:none;} */
-[data-cave-key="cave-0"] {display:none;}
-[data-cave-key="cave-176761"] {display:none;}
 
 /* TESTING AREA */
 
