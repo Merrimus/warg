@@ -113,7 +113,8 @@ th.pt-1.pb-1::before { content: "Gravedigger"; font-size: 40px!important }
                           width: 100%;
                           position: absolute;
                           background-image: url('https://i.ibb.co/xtxmppFD/brandon-griggs-Nt-FIy-WOf9g-M-unsplash-2.jpg')!important; 
-                          background-attachment:fixed; }
+                          background-attachment:fixed; 
+                          -webkit-filter: grayscale(100%); filter: grayscale(100%);}
 
 /* WOLF CARDS */  
 .table-striped tbody tr:nth-of-type(odd), .form-control { background-color: transparent }
