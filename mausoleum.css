@@ -78,7 +78,7 @@ body { cursor: url('https://i.ibb.co/Qjb6sbyp/bone.png'), text;
       color: #999; 
       font-family: georgia; 
       font-size: 11px;
-      background-image: url('https://images2.imgbox.com/7a/41/mvmBEhMr_o.jpg'); 
+      background-image: url('https://i.ibb.co/xtxmppFD/brandon-griggs-Nt-FIy-WOf9g-M-unsplash-2.jpg'); 
       background-color: #000; 
       background-attachment: fixed; 
       background-size: cover; 
@@ -97,7 +97,7 @@ th.pt-1.pb-1::before { content: "Gravedigger"; font-size: 40px!important }
 /* LEAD WOLF (TITLE BACKGROUND, STATUS EFFECTS) */  
 
 .form-row .card, td.right.text-right, .pb-1, .py-1 {
-    background-image: url(https://images2.imgbox.com/7a/41/mvmBEhMr_o.jpg)!important;
+    background-image: url('https://i.ibb.co/xtxmppFD/brandon-griggs-Nt-FIy-WOf9g-M-unsplash-2.jpg')!important;
     background-size: cover!important; background-position: 50% 50%!important;
     background: #b32b2b;
     background-attachment:fixed;
