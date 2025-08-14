@@ -78,12 +78,11 @@ body { cursor: url('https://i.ibb.co/Qjb6sbyp/bone.png'), text;
       color: #999; 
       font-family: georgia; 
       font-size: 11px;
-      background-image: url('https://i.ibb.co/xtxmppFD/brandon-griggs-Nt-FIy-WOf9g-M-unsplash-2.jpg'); 
+      background-image: url('https://i.ibb.co/xtxmppFD/brandon-griggs-Nt-FIy-WOf9g-M-unsplash-2.jpg')!important; 
       background: #b32b2b;
       background-blend-mode: darken; 
       background-attachment: fixed; 
-      background-size: cover; 
-      background-position: 50% 50% }
+      background-size: cover!important; background-position: 50% 50%!important; }
 
 /* LINKS */
 a, .table th a, .alert-info .alert-link, .alert-success .alert-link { color: #fff; transition: .5s }
