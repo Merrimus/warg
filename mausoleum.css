@@ -79,7 +79,7 @@ body { cursor: url('https://i.ibb.co/Qjb6sbyp/bone.png'), text;
       font-family: georgia; 
       font-size: 11px;
       background-image: url('https://i.ibb.co/xtxmppFD/brandon-griggs-Nt-FIy-WOf9g-M-unsplash-2.jpg')!important; 
-      background: #b32b2b;
+      background: #bb523c;
       background-blend-mode: darken; 
       background-attachment: fixed; 
       background-size: cover!important; background-position: 50% 50%!important; }
@@ -99,7 +99,7 @@ th.pt-1.pb-1::before { content: "Gravedigger"; font-size: 40px!important }
 .form-row .card, td.right.text-right, .pb-1, .py-1 {
     background-image: url('https://i.ibb.co/xtxmppFD/brandon-griggs-Nt-FIy-WOf9g-M-unsplash-2.jpg')!important;
     background-size: cover!important; background-position: 50% 50%!important;
-    background: #b32b2b;
+    background: #bb523c;
     background-attachment:fixed;
     background-blend-mode: darken; }
 
@@ -115,8 +115,8 @@ th.pt-1.pb-1::before { content: "Gravedigger"; font-size: 40px!important }
                           color: #fff;
                           width: 100%;
                           position: absolute;
-                          background-image: url(https://i.ibb.co/xtxmppFD/brandon-griggs-Nt-FIy-WOf9g-M-unsplash-2.jpg)!important; 
-                          background: #b32b2b; 
+                          background-image: url('https://i.ibb.co/xtxmppFD/brandon-griggs-Nt-FIy-WOf9g-M-unsplash-2.jpg')!important; 
+                          background: #bb523c; 
                           background-blend-mode: darken; 
                           background-attachment:fixed; }
 
@@ -158,7 +158,7 @@ th.top { padding: 20px 25px;
         font-size: 35px; 
         font-family: 'East Sea Dokdo', cursive; 
         line-height: 1; 
-        background: #b32b2b; 
+        background: #bb523c; 
         background-blend-mode: darken; 
         background-attachment:fixed;
         text-shadow: 0 0 10px #000000c7; }
