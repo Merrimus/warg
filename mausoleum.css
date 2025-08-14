@@ -79,7 +79,8 @@ body { cursor: url('https://i.ibb.co/Qjb6sbyp/bone.png'), text;
       font-family: georgia; 
       font-size: 11px;
       background-image: url('https://i.ibb.co/xtxmppFD/brandon-griggs-Nt-FIy-WOf9g-M-unsplash-2.jpg'); 
-      background-color: #000; 
+      background: #b32b2b;
+      background-blend-mode: darken; 
       background-attachment: fixed; 
       background-size: cover; 
       background-position: 50% 50% }
