@@ -222,6 +222,7 @@ h3 {display:none;}
 .card-body img[title="Preg1"], img[src$="//static.wolvden.com/images/layout/icons/preg1.png"] { display: none }
 .card-body img[title="Preg2"], img[src$="//static.wolvden.com/images/layout/icons/preg2.png"] { display: none }
 .card-body img[title="Preg3"], img[src$="//static.wolvden.com/images/layout/icons/preg3.png"] { display: none }
+.card-body img[title="Heat"], img[src$="//static.wolvden.com/images/layout/icons/inheat.png"] { display: none }
 
 /* TESTING AREA */
 
