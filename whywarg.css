@@ -187,10 +187,17 @@ background-image: url(https://images2.imgbox.com/7a/41/mvmBEhMr_o.jpg) !importan
 background: #b32b2b;
 background-blend-mode: darken; 
 background-attachment: fixed;
-  height: 150px;
-  width: 150px; }
+height: 150px;
+width: 150px; }
 
+/* SPOILER BUTTON */
+.FAQ {white-space: pre-wrap;}
 
+button.btn.btn-warning.btn-spoiler.active {
+  background-color:#382222;
+  border-color: white;}
+
+button:active {background-color:black;}
 
 /* TESTING AREA */
 
