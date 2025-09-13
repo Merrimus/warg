@@ -187,7 +187,14 @@ background-attachment: fixed;
   height: 150px;
   width: 150px; }
 
+/* SPOILER BUTTON */
+.FAQ {white-space: pre-wrap;}
 
+button.btn.btn-warning.btn-spoiler.active {
+  background-color:#382222;
+  border-color: white;}
+
+button:active {background-color:black;}
 
 
 /* TESTING AREA */
