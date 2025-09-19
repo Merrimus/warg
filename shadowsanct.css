@@ -205,8 +205,8 @@ h3 {display:none;}
 
 /* HIDDEN CAVE */
 /* [data-cave-key="cave-187124"] {display:none;} */
-[data-cave-key="cave-0"] {display:none;}
-[data-cave-key="cave-176761"] {display:none;}
+[data-cave-key="0"] {display:none;}
+[data-cave-key="176761"] {display:none;}
 
 /* HIDING */
 .pl-4, .px-4 {display:none;}
