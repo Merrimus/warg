@@ -93,7 +93,7 @@ a:hover, #footer nav .nav-item .nav-link:hover, #header .navbar-main .active .na
 .pt-1.pb-1, .featured-wolf b { line-height: 1; font-size: 0!important } .pt-1.pb-1 a { font-size: 50px!important; text-decoration:strikethrough!important; }
 th.pt-1.pb-1::before { content: "The Fates "; font-size: 40px!important }
 .featured-wolf { font-size: 0!important }
-.featured-wolf::before { content: "<a href="https://www.wolvden.com/dynasty/35117/pack-members">dead doesn't mean gone</a>"; font-size: .875rem!important; font-style: italic }
+.featured-wolf::before { content: "dead doesn't mean gone"; font-size: .875rem!important; font-style: italic }
 
 /* LEAD WOLF (TITLE BACKGROUND, STATUS EFFECTS) */  
 
