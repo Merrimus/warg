@@ -196,4 +196,7 @@ h3 {display:none;}
 .mx-2 {display:none;}
 
 /* TESTING AREA */
+button.collapseCave.btn.btn-info.btn-sm {display:none;}
+a.h4 {font-size:36px!important;}
+
 
