@@ -210,118 +210,28 @@ button:active {background-color:black;!important}
     min-width:100px; } 
 
 .capt a { color:white!important; font-weight:bold!important; } 
-.capt p {
-    margin:5px 0px; } 
-
+.capt p { margin:5px 0px; } 
 .capt p:last-child { margin-bottom: 0px; } 
-.capt p:first-child {
-    margin-top:0px;} 
-.capt::after {
-    content:"";
-    display:block;
-} .capt::before {
-    content:'html by #202';
-    font: bold 9px Calibri;
-    color:black;
-} .capt::after, .capt::before {
-    position: absolute;
-}
+.capt p:first-child { margin-top:0px; } 
+.capt::after { content:""; display:block; } 
+.capt::before { content:'html by #202'; font: bold 9px Calibri; color:black; } 
+.capt::after, .capt::before { position: absolute; }
 
-@media only screen and (min-width: 992px) {
-    
-    .float {
-        position:fixed!important;
-        z-index: 999;
-    } .note-editor .float {
-        display: none!important;
-    } 
-    
-    .float.bl, .float.tl {
-        left:10px;
-    } .float.br,.float.tr {
-        right:10px;
-    } .float.bl, .float.br {
-        bottom:10px;
-    } .float.tl, .float.tr {
-        top:10px;
-    }
-    
-    .float.bl.ani, .float.br.ani {
-        animation: floatb 5.5s infinite;
-    } .float.tl.ani, .float.tr.ani {
-        animation: floatt 5.5s infinite;
-    }
-    
-    @keyframes floatb {
-        0% {bottom:30px;}
-        50% {bottom:10px;}
-        100% {bottom:30px;}
-    } @keyframes floatt {
-        0% {top:10px;}
-        50% {top:30px;}
-        100% {top:10px;}
-    }
-    
-    .capt {
-        max-width:250px;
-        display: inline-block;
-        transition: 0.5s ease;
-        opacity:0;
-    } .float.br .capt, .float.tr .capt {
-        float:left;
-    } .float.bl .capt, .float.tl .capt {
-        float:right;
-    } 
-    
-    .float:hover .capt {
-        opacity:1;
-    } .float.br:hover .capt, .float.tr:hover .capt {
-        margin-right:10px;
-    } .float.bl:hover .capt, .float.tl:hover .capt {
-        margin-left:10px;
-    }
-    
-    .float.bl .capt::after, .float.tl .capt::after, .float.br .capt::after, .float.tr .capt::after {
-        bottom:-11px;
-        border-bottom:10px solid transparent;
-    }
-    
-    .float.bl .capt::after, .float.tl .capt::after {
-        border-left:10px solid #fff;
-        border-left-color:inherit!important;
-        left:10px;
-    } .float.br .capt::after, .float.tr .capt::after {
-        border-right:10px solid #fff;
-        border-right-color:inherit!important;
-        right:10px;
-    } .float.bl .capt::before, .float.tl .capt::before {
-        bottom:-12px;
-        right:0px;
-    } .float.br .capt::before, .float.tr .capt::before {
-        bottom:-12px;
-        left:0px;
-    }
-    
-} @media only screen and (max-width: 991px) {
-    
-    .float {
-        max-width:50%;
-        margin-left:25%;
-        margin-bottom:15px;
-        text-align: center;
-    } .capt {
-        display:block;
-        margin-top:10px;
-        margin-bottom:10px;
-    } .capt::after {
-        border-top: 10px solid transparent;
-        border-right: 10px solid #fff;
-        border-right-color: inherit!important;
-        top:-10px;
-    } .capt::before {
-        bottom: -13px;
-        right:0px;
-    }
-    
-}
+@media only screen and (min-width: 992px) { 
+.float { position:fixed!important; z-index: 999; } .note-editor .float { display: none!important; } 
+.float.bl, .float.tl { left:10px; } .float.br,.float.tr { right:10px; } .float.bl, .float.br { bottom:10px; } .float.tl, .float.tr { top:10px; }
+.float.bl.ani, .float.br.ani { animation: floatb 5.5s infinite; } .float.tl.ani, .float.tr.ani { animation: floatt 5.5s infinite; }
+@keyframes floatb { 0% {bottom:30px;} 50% {bottom:10px;} 100% {bottom:30px;} } @keyframes floatt { 0% {top:10px;} 50% {top:30px;} 100% {top:10px;} }  
+.capt { max-width:250px; display: inline-block; transition: 0.5s ease; opacity:0; } .float.br .capt, .float.tr .capt { float:left; } .float.bl .capt, .float.tl .capt { float:right; } 
+.float:hover .capt { opacity:1; } .float.br:hover .capt, .float.tr:hover .capt { margin-right:10px; } .float.bl:hover .capt, .float.tl:hover .capt { margin-left:10px; }
+.float.bl .capt::after, .float.tl .capt::after, .float.br .capt::after, .float.tr .capt::after { bottom:-11px; border-bottom:10px solid transparent; }
+.float.bl .capt::after, .float.tl .capt::after { border-left:10px solid #fff; border-left-color:inherit!important; left:10px; } 
+.float.br .capt::after, .float.tr .capt::after { border-right:10px solid #fff; border-right-color:inherit!important; right:10px; } 
+.float.bl .capt::before, .float.tl .capt::before { bottom:-12px; right:0px; } .float.br .capt::before, .float.tr .capt::before { bottom:-12px; left:0px; } } 
+
+@media only screen and (max-width: 991px) {
+.float { max-width:50%; margin-left:25%; margin-bottom:15px; text-align: center; } 
+.capt { display:block; margin-top:10px; margin-bottom:10px; } 
+.capt::after { border-top: 10px solid transparent; border-right: 10px solid #fff; border-right-color: inherit!important; top:-10px; } 
+.capt::before { bottom: -13px; right:0px; } }
 
