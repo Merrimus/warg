@@ -36,7 +36,6 @@ a img.border-bottom, img.rounded-bottom { border: 1px solid #333!important; box-
 .bg-dark, .bg-light { background-color: transparent!important; }
 #main .card {background:none;}
   
-
 /* PACK TITLE */
 #main>h1 { color: white; 
           text-align: center!important; 
@@ -118,7 +117,7 @@ form .table.table-striped tbody tr td div>div a:before { content: "ᛉ"; color: 
 .form-row .card, .pb-1, .py-1 { background-attachment: fixed!important }
 .form-row .card { border: 1px solid #1d1d1d!important }
 .pb-1, .py-1 { : 20px!important }
-.form-row .card-img-top { display: none }
+/* .form-row .card-img-top { display: none } */
 
 .card.text-center { border: 0!important; background: none!important }
 .subheader { display: none }
