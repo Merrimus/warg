@@ -69,7 +69,7 @@ a img.border-bottom, img.rounded-bottom { border: 1px solid #333!important; box-
 /* BODY (CURSOR, FONT, BACKGROUND) */
 body { cursor: text;
       color: #999; 
-      font-family: georgia; 
+      font-family: Consolas; 
       font-size: 11px;
       background-image: url('https://images2.imgbox.com/7a/41/mvmBEhMr_o.jpg'); 
       background-color: #000000c4; 
