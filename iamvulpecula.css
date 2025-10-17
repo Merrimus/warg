@@ -185,7 +185,8 @@ td.right.text-right, .pb-1, .py-1 {
 background-image: url(https://i.imgur.com/l1vYqH7.png) !important;
 background-attachment: fixed;
 height: 150px;
-width: 150px; }
+width: 150px; 
+display: none;}
 
 .FAQ { white-space: pre-wrap; }
 .me { line-height: 0.5; }
