@@ -199,16 +199,8 @@ button.btn.btn-danger.float-right { background-color: #372323}
 
 button:active {background-color:black;!important}
 
-/* TESTING AREA */
-.capt {
-    padding:10px 12px;
-    border:1px solid #000;
-    line-height:13px;
-    border-radius:10px;
-    position: relative;
-    text-align: center;
-    min-width:100px; } 
-
+/* PAGE DOLL ADAPTED FROM CODE BY #202 */
+.capt { padding:10px 12px; border:1px solid #000; line-height:13px; border-radius:10px; position: relative; text-align: center; min-width:100px; } 
 .capt a { color:white!important; font-weight:bold!important; } 
 .capt p { margin:5px 0px; } 
 .capt p:last-child { margin-bottom: 0px; } 
@@ -235,3 +227,4 @@ button:active {background-color:black;!important}
 .capt::after { border-top: 10px solid transparent; border-right: 10px solid #fff; border-right-color: inherit!important; top:-10px; } 
 .capt::before { bottom: -13px; right:0px; } }
 
+/* TESTING AREA */
