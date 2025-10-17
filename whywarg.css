@@ -178,8 +178,8 @@ form#summernote-form { background: #000; padding: 20px; border: 1px solid #222 }
                           background-attachment:fixed; }
 
 /* PROFILE STUFFS */
-.justify-content-md-center {display:none;}
-.table th {opacity:0.8}
+.justify-content-md-center { display:none; }
+.table th { opacity:0.8; }
 
 td.right.text-right, .pb-1, .py-1 {
 background-image: url(https://images2.imgbox.com/7a/41/mvmBEhMr_o.jpg) !important;
@@ -189,16 +189,12 @@ background-attachment: fixed;
 height: 150px;
 width: 150px; }
 
-.FAQ {white-space: pre-wrap;}
-.me {    line-height: 0.5; }
+.FAQ { white-space: pre-wrap; }
+.me { line-height: 0.5; }
 
-button.btn.btn-warning.btn-spoiler.active {
-  background-color:#382222;
-  border-color: white;}
-
-button.btn.btn-danger.float-right { background-color: #372323}
-
-button:active {background-color:black;!important}
+button.btn.btn-warning.btn-spoiler.active { background-color:#382222; border-color: white; }
+button.btn.btn-danger.float-right { background-color: #372323 }
+button:active { background-color:black;!important }
 
 /* PAGE DOLL ADAPTED FROM CODE BY #202 */
 .capt { padding:10px 12px; border:1px solid #000; line-height:13px; border-radius:10px; position: relative; text-align: left; min-width:100px; } 
