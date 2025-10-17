@@ -187,7 +187,8 @@ background: #b32b2b;
 background-blend-mode: darken; 
 background-attachment: fixed;
 height: 150px;
-width: 150px; }
+width: 150px; 
+display: none; }
 
 .FAQ { white-space: pre-wrap; }
 .me { line-height: 0.5; }
