@@ -209,20 +209,20 @@ h3 {display:none;}
 
 /* HIDING */
 .pl-4, .px-4 {display:none;}
+.card-body.pt-1.pb-1 {display:none;}
 .card-body img[title="Sick"], img[src$="//static.wolvden.com/images/layout/icons/unwell.png"] { display: none }
 .card-body img[title="Secured"], img[src$="//static.wolvden.com/images/layout/icons/locked.png"] { display: none }
-.card-body img[title="Scout"], img[src$="//static.wolvden.com/images/layout/icons/scout.png"] { display: none }
-.card-body img[title="Hunter"], img[src$="//static.wolvden.com/images/layout/icons/foothunt.png"] { display: none }
 .card-body img[title="Breeding Cooldown"], img[src$="//static.wolvden.com/images/layout/icons/hourglass.png"] { display: none }
-.card-body img[title="Herbalist"], img[src$="//static.wolvden.com/images/layout/icons/herbalist.png"] { display: none }
 .card-body img[title="Pregnant"], img[src$="//static.wolvden.com/images/layout/icons/pregnant.png"] { display: none }
-.card-body img[title="Pupsitter"], img[src$="//static.wolvden.com/images/layout/icons/brood.png"] { display: none }
 .card-body img[title="Nested"], img[src$="//static.wolvden.com/images/layout/icons/nested.png"] { display: none }
 .card-body img[title="Preg1"], img[src$="//static.wolvden.com/images/layout/icons/preg1.png"] { display: none }
 .card-body img[title="Preg2"], img[src$="//static.wolvden.com/images/layout/icons/preg2.png"] { display: none }
 .card-body img[title="Preg3"], img[src$="//static.wolvden.com/images/layout/icons/preg3.png"] { display: none }
 .card-body img[title="Heat"], img[src$="//static.wolvden.com/images/layout/icons/inheat.png"] { display: none }
-.card-body.pt-1.pb-1 {display:none;}
+/* .card-body img[title="Pupsitter"], img[src$="//static.wolvden.com/images/layout/icons/brood.png"] { display: none }
+.card-body img[title="Scout"], img[src$="//static.wolvden.com/images/layout/icons/scout.png"] { display: none }
+.card-body img[title="Herbalist"], img[src$="//static.wolvden.com/images/layout/icons/herbalist.png"] { display: none 
+.card-body img[title="Hunter"], img[src$="//static.wolvden.com/images/layout/icons/foothunt.png"] { display: none } */
 
 /* UPDATE FIXING */
 button.collapseCave.btn.btn-info.btn-sm {display:none;}
