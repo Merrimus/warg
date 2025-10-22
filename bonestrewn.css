@@ -77,7 +77,7 @@ pre b { font-variant: small-caps; font-size: 1.2em; }
 /* BODY (CURSOR, FONT, BACKGROUND) */
 body { cursor: url('https://i.ibb.co/Qjb6sbyp/bone.png'), text;
       color: #999; 
-      font-family: georgia; 
+      font-family: consolas; 
       font-size: 11px;
       background-image: url('https://images2.imgbox.com/7a/41/mvmBEhMr_o.jpg'); 
       background-color: #000; 
@@ -228,7 +228,7 @@ h3 {display:none;}
 button.collapseCave.btn.btn-info.btn-sm {display:none;}
 a.h4 {font-size:36px!important;}
 
-/* TESTING AREA */
+/* REPLACEMENT IMAGES */
 img[src$="packdynasty.png"] {content: url('https://i.vgy.me/pjOggb.png') !important; opacity: 0.9;}
 img[src$="packoverview.png"] {content: url('https://i.vgy.me/rY7mbD.png') !important; opacity: 0.7;}
 img[src$="breeding.png"] {content: url('https://i.vgy.me/fyCZkf.png') !important; opacity: 0.7;}
@@ -236,5 +236,5 @@ img[src$="pupsitting.png"] {display:none !important;}
 img[src$="nesting.png"] {display:none !important;}
 img[src$="socializing.png"] {display:none !important;}
 
-
+/* TESTING AREA */
 
