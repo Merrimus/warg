@@ -227,3 +227,8 @@ button:active { background-color:black;!important }
 }
 
 /* TESTING AREA */
+@media only screen and (max-width: 1200px) {
+.vanishingact { display:none; }
+.pumpkins { display: none; }
+.skulls { display: none; }
+}
