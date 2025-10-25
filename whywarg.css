@@ -47,8 +47,6 @@ a img.border-bottom, img.rounded-bottom { border: 1px solid #333!important; box-
           opacity:0.8 }
 
 /* BONESTREWN CONTENT */
-.skulls { opacity: 0.4;}
-.pumpkins { opacity: 0.4; margin-bottom: -230px; margin-top: 130px;}
 .runes {color: white; opacity: 0.4; text-align:center;font-size:50px; margin-bottom: -50px; 
           -webkit-text-stroke: 1px rgba(179,43,43,0.5);}
 .pack { color: white; 
@@ -229,6 +227,7 @@ button:active { background-color:black;!important }
 /* TESTING AREA */
 @media only screen and (max-width: 1200px) {
 .customdecor { display:none; }
-.pumpkins { display: none; }
 .skulls { display: none; }
 }
+
+@media only screen and (min-width: 1201px) { .skulls { opacity: 0.4;} }
