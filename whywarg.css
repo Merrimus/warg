@@ -221,13 +221,12 @@ button:active { background-color:black;!important }
 .capt { display:block; margin-top:10px; margin-bottom:10px; } 
 .capt::after { border-top: 10px solid transparent; border-right: 10px solid #fff; border-right-color: inherit!important; top:-10px; } 
 .capt::before { bottom: -13px; right:0px; } 
-.customdecor { display:none; }
 }
 
 /* TESTING AREA */
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 991px) {
 .customdecor { display:none; }
 .skulls { display: none; }
 }
 
-@media only screen and (min-width: 1201px) { .skulls { opacity: 0.4;} }
+@media only screen and (min-width: 992px) { .skulls { opacity: 0.4;} }
