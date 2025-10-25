@@ -222,6 +222,8 @@ button:active { background-color:black;!important }
 .float { max-width:50%; margin-left:25%; margin-bottom:15px; text-align: center; } 
 .capt { display:block; margin-top:10px; margin-bottom:10px; } 
 .capt::after { border-top: 10px solid transparent; border-right: 10px solid #fff; border-right-color: inherit!important; top:-10px; } 
-.capt::before { bottom: -13px; right:0px; } }
+.capt::before { bottom: -13px; right:0px; } 
+.customdecor { display:none; }
+}
 
 /* TESTING AREA */
