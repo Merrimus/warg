@@ -195,6 +195,13 @@ button.btn.btn-warning.btn-spoiler.active { background-color:#382222; border-col
 button.btn.btn-danger.float-right { background-color: #372323 }
 button:active { background-color:black;!important }
 
+@media only screen and (max-width: 991px) {
+.customdecor { display:none; }
+.skulls { display: none; }
+}
+
+@media only screen and (min-width: 992px) { .skulls { opacity: 0.4;} }
+
 /* PAGE DOLL ADAPTED FROM CODE BY #202 */
 .capt { padding:10px 12px; border:1px solid #000; line-height:13px; border-radius:10px; position: relative; text-align: left; min-width:100px; } 
 .capt a { color:white!important; font-weight:bold!important; } 
@@ -224,9 +231,4 @@ button:active { background-color:black;!important }
 }
 
 /* TESTING AREA */
-@media only screen and (max-width: 991px) {
-.customdecor { display:none; }
-.skulls { display: none; }
-}
 
-@media only screen and (min-width: 992px) { .skulls { opacity: 0.4;} }
