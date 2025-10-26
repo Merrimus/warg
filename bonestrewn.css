@@ -186,10 +186,9 @@ button.collapseCave.btn.btn-info.btn-sm {display:none;}
 a.h4 {font-size:36px!important;}
 
 /* REPLACEMENT IMAGES */
-
-img[src$="packdynasty.png"] {content: url('https://i.vgy.me/pjOggb.png') !important; opacity: 0.9; width: 300px; height: 150px;}
-img[src$="packoverview.png"] {content: url('https://i.vgy.me/rY7mbD.png') !important; opacity: 0.7; width: 300px; height: 150px;}
-img[src$="breeding.png"] {content: url('https://i.vgy.me/fyCZkf.png') !important; opacity: 0.7; width: 300px; height: 150px;}
+img[src$="packdynasty.png"] {content: url('https://i.vgy.me/pjOggb.png') !important; opacity: 0.9;}
+img[src$="packoverview.png"] {content: url('https://i.vgy.me/rY7mbD.png') !important; opacity: 0.7;}
+img[src$="breeding.png"] {content: url('https://i.vgy.me/fyCZkf.png') !important; opacity: 0.7;}
 img[src$="pupsitting.png"] {display:none !important;}
 img[src$="nesting.png"] {display:none !important;}
 img[src$="socializing.png"] {display:none !important;} }
