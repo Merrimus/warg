@@ -151,6 +151,10 @@ h1, h2, h3, h4, h5, h6, th.pt-1.pb-1 { font-family: 'East Sea Dokdo', cursive; }
 td.b { text-align: right; font-weight: 100; text-transform: uppercase; font-weight: bold; font-size: 9px; letter-spacing: 1px }
 .form-control, .btn { font-size: inherit!important }
 
+h2, h3, h4, h5, h6, th.pt-1.pb-1 { font-family: 'East Sea Dokdo', cursive; }
+@media only screen and (max-width: 991px) { h1 { font-family: 'East Sea Dokdo', cursive; font-size:70px!important;margin-bottom:-40px!important; } }
+@media only screen and (min-width: 992px) { h1 { font-family: 'East Sea Dokdo', cursive; } }
+
 /* ALERTS */  
 #summernote-form, .alert { background: none; border: 0; border-bottom: 0px solid #eee3; color: inherit; padding: 0 5px 5px;}
 .text-danger { color: inherit!important }
