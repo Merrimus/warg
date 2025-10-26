@@ -152,7 +152,7 @@ td.b { text-align: right; font-weight: 100; text-transform: uppercase; font-weig
 .form-control, .btn { font-size: inherit!important }
 
 h2, h3, h4, h5, h6, th.pt-1.pb-1 { font-family: 'East Sea Dokdo', cursive; }
-@media only screen and (max-width: 991px) { h1 { font-family: 'East Sea Dokdo', cursive; font-size:70px!important;margin-bottom:-40px!important; } }
+@media only screen and (max-width: 991px) { h1 { font-family: 'East Sea Dokdo', cursive; font-size:70px!important;margin-bottom:-60px!important; } }
 @media only screen and (min-width: 992px) { h1 { font-family: 'East Sea Dokdo', cursive; } }
 
 /* ALERTS */  
