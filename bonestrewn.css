@@ -37,9 +37,9 @@ a img.border-bottom, img.rounded-bottom { border: 1px solid #333!important; box-
 pre { font-size: 0.7rem; margin-left: 0; margin-right: 0; margin-top:0px; margin-bottom: 50px; max-width:100%; height: 200px; color: white; text-wrap: wrap; opacity: 0.9;}
 pre a:link { color: #b32b2b; }
 pre a:visited { color: #b32b2b; }
-pre  a:hover { color: #b32b2b; }
+pre a:hover { color: #b32b2b; }
 pre a:active { color: #b32b2b; }
-pre b { font-variant: small-caps; font-size: 1.2em; } 
+pre b { font-variant: small-caps; font-size: 1.2em; }
 
 /* PACK TITLE */
 #main>h1 { color: white; text-align: center!important; font-size: 100px!important; line-height: 1; -webkit-text-stroke: 1px rgba(179,43,43,0.5); margin-bottom: -100px !important; opacity:0.8 }
@@ -186,15 +186,15 @@ button.collapseCave.btn.btn-info.btn-sm {display:none;}
 a.h4 {font-size:36px!important;}
 
 /* REPLACEMENT IMAGES */
-img[src$="packdynasty.png"] {content: url('https://i.vgy.me/pjOggb.png') !important; opacity: 0.9;}
-img[src$="packoverview.png"] {content: url('https://i.vgy.me/rY7mbD.png') !important; opacity: 0.7;}
-img[src$="breeding.png"] {content: url('https://i.vgy.me/fyCZkf.png') !important; opacity: 0.7;}
+img[src$="packdynasty.png"] {content: url('https://i.vgy.me/pjOggb.png') !important; opacity: 0.9; width: 300px; height: 150px;}
+img[src$="packoverview.png"] {content: url('https://i.vgy.me/rY7mbD.png') !important; opacity: 0.7; width: 300px; height: 150px;}
+img[src$="breeding.png"] {content: url('https://i.vgy.me/fyCZkf.png') !important; opacity: 0.7; width: 300px; height: 150px;}
 img[src$="pupsitting.png"] {display:none !important;}
 img[src$="nesting.png"] {display:none !important;}
-img[src$="socializing.png"] {display:none !important;} }
+img[src$="socializing.png"] {display:none !important;}
 
 /* BONESTREWN CONTENT */
-.skeletal { margin-bottom:-350px!important; opacity: 0.5!important; }
+.skeletal { margin-bottom:-350px; opacity: 0.5; }
 .scattered { margin-bottom:-350px; opacity: 0.5; float: right; }
 
 @media only screen and (max-width: 991px) { .skulls { display: none; } }
@@ -205,4 +205,3 @@ img[src$="socializing.png"] {display:none !important;} }
 @-webkit-keyframes snowflakes-fall{0%{top:-10%}100%{top:100%}}@-webkit-keyframes snowflakes-shake{0%{-webkit-transform:translateX(0px);transform:translateX(0px)}50%{-webkit-transform:translateX(80px);transform:translateX(80px)}100%{-webkit-transform:translateX(0px);transform:translateX(0px)}}@keyframes snowflakes-fall{0%{top:-10%}100%{top:100%}}@keyframes snowflakes-shake{0%{transform:translateX(0px)}50%{transform:translateX(80px)}100%{transform:translateX(0px)}}.snowflake{position:fixed;top:-10%;z-index:9999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;cursor:default;-webkit-animation-name:snowflakes-fall,snowflakes-shake;-webkit-animation-duration:10s,3s;-webkit-animation-timing-function:linear,ease-in-out;-webkit-animation-iteration-count:infinite,infinite;-webkit-animation-play-state:running,running;animation-name:snowflakes-fall,snowflakes-shake;animation-duration:10s,3s;animation-timing-function:linear,ease-in-out;animation-iteration-count:infinite,infinite;animation-play-state:running,running}.snowflake:nth-of-type(0){left:1%;-webkit-animation-delay:0s,0s;animation-delay:0s,0s}.snowflake:nth-of-type(1){left:10%;-webkit-animation-delay:1s,1s;animation-delay:1s,1s}.snowflake:nth-of-type(2){left:20%;-webkit-animation-delay:6s,.5s;animation-delay:6s,.5s}.snowflake:nth-of-type(3){left:30%;-webkit-animation-delay:4s,2s;animation-delay:4s,2s}.snowflake:nth-of-type(4){left:40%;-webkit-animation-delay:2s,2s;animation-delay:2s,2s}.snowflake:nth-of-type(5){left:50%;-webkit-animation-delay:8s,3s;animation-delay:8s,3s}.snowflake:nth-of-type(6){left:60%;-webkit-animation-delay:6s,2s;animation-delay:6s,2s}.snowflake:nth-of-type(7){left:70%;-webkit-animation-delay:2.5s,1s;animation-delay:2.5s,1s}.snowflake:nth-of-type(8){left:80%;-webkit-animation-delay:1s,0s;animation-delay:1s,0s}.snowflake:nth-of-type(9){left:90%;-webkit-animation-delay:3s,1.5s;animation-delay:3s,1.5s}
 
 /* TESTING AREA */
-
