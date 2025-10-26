@@ -194,7 +194,7 @@ img[src$="nesting.png"] {display:none !important;}
 img[src$="socializing.png"] {display:none !important;} }
 
 /* BONESTREWN CONTENT */
-.skeletal { margin-bottom:-350px; opacity: 0.5; }
+.skeletal { margin-bottom:-350px!important; opacity: 0.5!important; }
 .scattered { margin-bottom:-350px; opacity: 0.5; float: right; }
 
 @media only screen and (max-width: 991px) { .skulls { display: none; } }
