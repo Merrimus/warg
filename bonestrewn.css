@@ -193,6 +193,12 @@ img[src$="pupsitting.png"] {display:none !important;}
 img[src$="nesting.png"] {display:none !important;}
 img[src$="socializing.png"] {display:none !important;}
 
+@media only screen and (max-width: 991px) { 
+img[src$="packdynasty.png"] {display:none;}
+img[src$="packoverview.png"]{display:none;}
+img[src$="breeding.png"] {display:none;}
+}
+
 /* BONESTREWN CONTENT */
 .skeletal { margin-bottom:-350px; opacity: 0.5; }
 .scattered { margin-bottom:-350px; opacity: 0.5; float: right; }
