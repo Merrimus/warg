@@ -34,14 +34,14 @@ a img.border-bottom, img.rounded-bottom { border: 1px solid #333!important; box-
 #main .card {background:none;}
   
 /* LORE BOX */
-@media only screen and (max-width: 991px) { pre { display: none; } }
+@media only screen and (max-width: 991px) { .lore { display: none; } }
 @media only screen and (min-width: 992px) { 
-pre { font-size: 0.7rem; margin-left: 0; margin-right: 0; margin-top:0px; margin-bottom: 50px; max-width:100%; height: 200px; color: white; text-wrap: wrap; opacity: 0.9;}
-pre a:link { color: #b32b2b; }
-pre a:visited { color: #b32b2b; }
-pre a:hover { color: #b32b2b; }
-pre a:active { color: #b32b2b; }
-pre b { font-variant: small-caps; font-size: 1.2em; } 
+.lore { font-size: 0.7rem; margin-left: 0; margin-right: 0; margin-top:0px; margin-bottom: 50px; max-width:100%; height: 200px; color: white; text-wrap: wrap; opacity: 0.9;}
+.lore a:link { color: #b32b2b; }
+.lore a:visited { color: #b32b2b; }
+.lore a:hover { color: #b32b2b; }
+.lore a:active { color: #b32b2b; }
+.lore b { font-variant: small-caps; font-size: 1.2em; } 
 }
 
 
