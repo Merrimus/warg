@@ -53,7 +53,7 @@ pre b { font-variant: small-caps; font-size: 1.2em; }
 /* BODY (CURSOR, FONT, BACKGROUND) */
 body { cursor: url('https://i.ibb.co/Qjb6sbyp/bone.png'), text;
       color: #999; font-family: consolas; font-size: 11px;
-      background-image: url('`'); background-color: #000; background-attachment: fixed; background-size: cover; background-position: 50% 50% }
+      background-image: url('https://i.ibb.co/k2MXP5z1/bonestrewn.png'); background-color: #000; background-attachment: fixed; background-size: cover; background-position: 50% 50% }
 
 /* LINKS */
 a, .table th a, .alert-info .alert-link, .alert-success .alert-link { color: #fff; transition: .5s }
